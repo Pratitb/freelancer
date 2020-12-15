@@ -614,6 +614,9 @@
     -ms-flex-preferred-size: initial;
         flex-basis: initial;
   }
+  #services .services .service img {
+    max-height: 5rem;
+  }
   #services .services .service .service-details {
     max-width: 13rem;
   }
@@ -815,8 +818,9 @@
   }
   #services .services .service {
     margin: 0rem 0rem 3rem 0rem;
-    -ms-flex-preferred-size: initial;
-        flex-basis: initial;
+  }
+  #services .services .service img {
+    max-height: 5rem;
   }
   #services .services .service .service-details {
     max-width: 13rem;
@@ -1023,6 +1027,9 @@
     -ms-flex-preferred-size: initial;
         flex-basis: initial;
   }
+  #services .services .service img {
+    max-height: 5rem;
+  }
   #services .services .service .service-details {
     max-width: 17rem;
   }
@@ -1162,6 +1169,9 @@
     margin: 0rem 0rem 3rem 0rem;
     -ms-flex-preferred-size: initial;
         flex-basis: initial;
+  }
+  #services .services .service img {
+    max-height: 5rem;
   }
   #services .services .service .service-details {
     max-width: 17rem;
