@@ -244,7 +244,7 @@
 }
 
 #services .services .service img {
-  max-width: 4rem;
+  max-width: 5rem;
   background: rgba(178, 219, 213, 0.2);
   border-radius: 1rem;
   padding: 0rem 0.8rem;
@@ -1334,7 +1334,7 @@
 }
 
 /*1025 to 1300*******************************************************************************/
-@media (min-width: 1025px) and (max-width: 1300px) {
+@media (min-width: 1025px) and (max-width: 1280px) {
   #home .headings {
     -webkit-box-align: center;
         -ms-flex-align: center;
@@ -1379,8 +1379,8 @@
   }
 }
 
-/*1301 to 1500*****************************************************************************/
-@media (min-width: 1301px) and (max-width: 1500px) {
+/*1281 to 1440*****************************************************************************/
+@media (min-width: 1281px) and (max-width: 1440px) {
   #home .headings {
     -webkit-box-align: center;
         -ms-flex-align: center;
