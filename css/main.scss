@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import "variables";
+@import "header";
+@import "home";
+@import "mockups";
+@import "services";
+@import "booking";
+@import "trust";
+@import "footer";
+@import "responsive";
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.text-decor-none{
+    text-decoration: none;
+}
