@@ -817,6 +817,8 @@
     margin-bottom: 3rem;
   }
   #services .services .service {
+    -ms-flex-preferred-size: initial;
+        flex-basis: initial;
     margin: 0rem 0rem 3rem 0rem;
   }
   #services .services .service img {
