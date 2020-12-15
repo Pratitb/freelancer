@@ -244,6 +244,7 @@
 }
 
 #services .services .service img {
+  max-height: 5rem;
   max-width: 5rem;
   background: rgba(178, 219, 213, 0.2);
   border-radius: 1rem;
