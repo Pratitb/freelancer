@@ -365,6 +365,198 @@
   border: 1px solid #fa8d62;
 }
 
+.projects-heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 20vh;
+}
+
+.projects-heading h1 {
+  font-size: 5rem;
+}
+
+.projects {
+  padding: 5rem 2rem;
+}
+
+.projects .project {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 80vh;
+}
+
+.projects .project .project-gallery {
+  -webkit-box-shadow: 12px 12px 20px #a7a7a7;
+          box-shadow: 12px 12px 20px #a7a7a7;
+  max-width: 800px;
+  margin-bottom: 5rem;
+}
+
+.projects .project .project-content {
+  max-width: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.projects .project .project-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}
+
+.projects .project .project-content .date {
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 1rem;
+}
+
+.projects .project .project-content .project-description {
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+}
+
+.projects .project .project-content .website-demo {
+  color: #2d2d2d;
+  border: 0.1rem solid #2d2d2d;
+  border-radius: 2rem;
+  padding: 1rem;
+  font-size: 1.2rem;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+}
+
+.projects .project .project-content .website-demo:hover {
+  background: #2b616d;
+  color: #fff;
+  border: 0.1rem solid #2b616d;
+}
+
+#reviews {
+  background: rgba(178, 219, 213, 0.2);
+  min-height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2rem;
+}
+
+#reviews .reviews-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 500px;
+}
+
+#reviews .reviews-description h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+#reviews .reviews-description .reviews-description-para {
+  font-size: 1.3rem;
+}
+
+#reviews .reviews {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#reviews .reviews .card-one {
+  margin-right: 2rem;
+}
+
+#reviews .reviews .review-card {
+  max-width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #fff;
+  padding: 2rem;
+  -webkit-box-shadow: 3px 10px 20px #a7a7a7;
+          box-shadow: 3px 10px 20px #a7a7a7;
+  border-radius: 2rem;
+}
+
+#reviews .reviews .review-card .reviews-card-detail {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+#reviews .reviews .review-card .company-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#reviews .reviews .review-card .company-details img {
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+#reviews .reviews .review-card .company-details p {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
 #trust {
   min-height: 50vh;
   padding: 5rem 2rem;
@@ -567,7 +759,7 @@
     margin-right: 0.7rem;
   }
   header .blm a {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
   header .navigation .navigation-links {
     display: none;
@@ -682,6 +874,74 @@
   #trust .trusted-brands .brands img {
     max-width: 35%;
   }
+  /*PROJECTS CODE START************************************************/
+  .projects-heading h1 {
+    font-size: 3rem;
+  }
+  .projects {
+    padding: 2rem 2rem;
+  }
+  .projects .space-btm {
+    margin-bottom: 3rem;
+  }
+  .projects .project {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .projects .project .project-gallery {
+    max-width: 300px;
+    margin-bottom: 1rem;
+  }
+  .projects .project .project-content h1 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  .projects .project .project-content .date {
+    font-size: 1rem;
+  }
+  .projects .project .project-content .project-description {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  .projects .project .project-content .website-demo {
+    padding: 0.4rem;
+    font-size: 0.8rem;
+  }
+  #reviews {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #reviews .reviews-description h1 {
+    font-size: 3rem;
+  }
+  #reviews .reviews-description .reviews-description-para {
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+  }
+  #reviews .reviews {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #reviews .reviews .review-card {
+    padding: 1.5rem;
+  }
+  #reviews .reviews .review-card .reviews-card-detail {
+    font-size: 1.2rem;
+  }
+  #reviews .reviews .card-one {
+    margin-right: 0rem;
+    margin-bottom: 2rem;
+  }
+  /*PROJECTS CODE END**************************************************/
   #footer {
     min-height: 70vh;
     padding: 2rem 2rem;
@@ -891,6 +1151,74 @@
   #trust .trusted-brands .brands img {
     max-width: 35%;
   }
+  /*PROJECTS CODE START************************************************/
+  .projects-heading h1 {
+    font-size: 3rem;
+  }
+  .projects {
+    padding: 2rem 2rem;
+  }
+  .projects .space-btm {
+    margin-bottom: 3rem;
+  }
+  .projects .project {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .projects .project .project-gallery {
+    max-width: 300px;
+    margin-bottom: 1rem;
+  }
+  .projects .project .project-content h1 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  .projects .project .project-content .date {
+    font-size: 1rem;
+  }
+  .projects .project .project-content .project-description {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  .projects .project .project-content .website-demo {
+    padding: 0.4rem;
+    font-size: 0.8rem;
+  }
+  #reviews {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #reviews .reviews-description h1 {
+    font-size: 3rem;
+  }
+  #reviews .reviews-description .reviews-description-para {
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+  }
+  #reviews .reviews {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #reviews .reviews .review-card {
+    padding: 1.5rem;
+  }
+  #reviews .reviews .review-card .reviews-card-detail {
+    font-size: 1.2rem;
+  }
+  #reviews .reviews .card-one {
+    margin-right: 0rem;
+    margin-bottom: 2rem;
+  }
+  /*PROJECTS CODE END**************************************************/
   #footer {
     min-height: 55vh;
     padding: 2rem 2rem;
@@ -1100,6 +1428,76 @@
   #trust .trusted-brands .brands img {
     max-width: 35%;
   }
+  /*PROJECTS CODE START************************************************/
+  .projects-heading h1 {
+    font-size: 4rem;
+  }
+  .projects {
+    padding: 2rem 2rem 4rem 2rem;
+  }
+  .projects .space-btm {
+    margin-bottom: 3rem;
+  }
+  .projects .project {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    min-height: 50vh;
+  }
+  .projects .project .project-gallery {
+    max-width: 350px;
+    margin-bottom: 1rem;
+  }
+  .projects .project .project-content h1 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  .projects .project .project-content .date {
+    font-size: 1rem;
+  }
+  .projects .project .project-content .project-description {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  .projects .project .project-content .website-demo {
+    padding: 0.4rem;
+    font-size: 0.8rem;
+  }
+  #reviews {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 3rem 2rem;
+  }
+  #reviews .reviews-description h1 {
+    font-size: 3rem;
+  }
+  #reviews .reviews-description .reviews-description-para {
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+  }
+  #reviews .reviews {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #reviews .reviews .review-card {
+    padding: 1.5rem;
+  }
+  #reviews .reviews .review-card .reviews-card-detail {
+    font-size: 1.2rem;
+  }
+  #reviews .reviews .card-one {
+    margin-right: 0rem;
+    margin-bottom: 2rem;
+  }
+  /*PROJECTS CODE END**************************************************/
   #footer {
     min-height: 45vh;
     padding: 2rem 2rem;
@@ -1310,6 +1708,76 @@
   #trust .trusted-brands .brands img {
     max-width: 35%;
   }
+  /*PROJECTS CODE START************************************************/
+  .projects-heading h1 {
+    font-size: 4rem;
+  }
+  .projects {
+    padding: 2rem 2rem 4rem 2rem;
+  }
+  .projects .space-btm {
+    margin-bottom: 3rem;
+  }
+  .projects .project {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    min-height: 50vh;
+  }
+  .projects .project .project-gallery {
+    max-width: 350px;
+    margin-bottom: 1rem;
+  }
+  .projects .project .project-content h1 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  .projects .project .project-content .date {
+    font-size: 1rem;
+  }
+  .projects .project .project-content .project-description {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  .projects .project .project-content .website-demo {
+    padding: 0.4rem;
+    font-size: 0.8rem;
+  }
+  #reviews {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 3rem 2rem;
+  }
+  #reviews .reviews-description h1 {
+    font-size: 3rem;
+  }
+  #reviews .reviews-description .reviews-description-para {
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+  }
+  #reviews .reviews {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #reviews .reviews .review-card {
+    padding: 1.5rem;
+  }
+  #reviews .reviews .review-card .reviews-card-detail {
+    font-size: 1.2rem;
+  }
+  #reviews .reviews .card-one {
+    margin-right: 0rem;
+    margin-bottom: 2rem;
+  }
+  /*PROJECTS CODE END**************************************************/
   #footer {
     padding: 2rem 2rem;
   }
@@ -1334,7 +1802,7 @@
   }
 }
 
-/*1025 to 1300*******************************************************************************/
+/*1025 to 1280*******************************************************************************/
 @media (min-width: 1025px) and (max-width: 1280px) {
   #home .headings {
     -webkit-box-align: center;
@@ -1365,6 +1833,181 @@
   #booking .booking .booking-description p {
     font-size: 1.7rem;
   }
+  /*PROJECTS PAGE START*/
+  .projects-heading {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    min-height: 20vh;
+  }
+  .projects-heading h1 {
+    font-size: 5rem;
+  }
+  .projects {
+    padding: 5rem 2rem;
+  }
+  .projects .project {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    min-height: 80vh;
+  }
+  .projects .project .project-gallery {
+    -webkit-box-shadow: 12px 12px 20px #a7a7a7;
+            box-shadow: 12px 12px 20px #a7a7a7;
+    max-width: 500px;
+    margin-bottom: 5rem;
+  }
+  .projects .project .project-gallery .slick-slide {
+    border-radius: 1rem;
+  }
+  .projects .project .project-content {
+    max-width: 500px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .projects .project .project-content h1 {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+  }
+  .projects .project .project-content .date {
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 1rem;
+  }
+  .projects .project .project-content .project-description {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  .projects .project .project-content .website-demo {
+    color: #2d2d2d;
+    border: 0.1rem solid #2d2d2d;
+    border-radius: 2rem;
+    padding: 0.8rem;
+    font-size: 1.1rem;
+    -webkit-transition: 0.2s linear;
+    transition: 0.2s linear;
+  }
+  .projects .project .project-content .website-demo:hover {
+    background: #2b616d;
+    color: #fff;
+    border: 0.1rem solid #2b616d;
+  }
+  #reviews {
+    background: rgba(178, 219, 213, 0.2);
+    min-height: 50vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 2rem;
+  }
+  #reviews .reviews-description {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    max-width: 500px;
+  }
+  #reviews .reviews-description h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  #reviews .reviews-description .reviews-description-para {
+    font-size: 1.2rem;
+  }
+  #reviews .reviews {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #reviews .reviews .card-one {
+    margin-right: 2rem;
+  }
+  #reviews .reviews .review-card {
+    max-width: 300px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background: #fff;
+    padding: 2rem;
+    -webkit-box-shadow: 3px 10px 20px #a7a7a7;
+            box-shadow: 3px 10px 20px #a7a7a7;
+    border-radius: 2rem;
+  }
+  #reviews .reviews .review-card .reviews-card-detail {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  #reviews .reviews .review-card .company-details {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #reviews .reviews .review-card .company-details img {
+    border-radius: 50%;
+    margin-right: 1rem;
+  }
+  #reviews .reviews .review-card .company-details p {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  /*PROJECTS PAGE END*/
   #footer .footer-part-one .identity p {
     font-size: 2rem;
   }
@@ -1417,6 +2060,178 @@
   #booking .booking .booking-description p {
     font-size: 1.7rem;
   }
+  /*PROJECTS PAGE START*/
+  .projects-heading {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    min-height: 20vh;
+  }
+  .projects-heading h1 {
+    font-size: 5rem;
+  }
+  .projects {
+    padding: 5rem 2rem;
+  }
+  .projects .project {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    min-height: 60vh;
+  }
+  .projects .project .project-gallery {
+    -webkit-box-shadow: 12px 12px 20px #a7a7a7;
+            box-shadow: 12px 12px 20px #a7a7a7;
+    max-width: 600px;
+    margin-bottom: 5rem;
+  }
+  .projects .project .project-content {
+    max-width: 500px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .projects .project .project-content h1 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+  }
+  .projects .project .project-content .date {
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 1rem;
+  }
+  .projects .project .project-content .project-description {
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+  }
+  .projects .project .project-content .website-demo {
+    color: #2d2d2d;
+    border: 0.1rem solid #2d2d2d;
+    border-radius: 2rem;
+    padding: 0.9rem;
+    font-size: 1.2rem;
+    -webkit-transition: 0.2s linear;
+    transition: 0.2s linear;
+  }
+  .projects .project .project-content .website-demo:hover {
+    background: #2b616d;
+    color: #fff;
+    border: 0.1rem solid #2b616d;
+  }
+  #reviews {
+    background: rgba(178, 219, 213, 0.2);
+    min-height: 50vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 2rem;
+  }
+  #reviews .reviews-description {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    max-width: 500px;
+  }
+  #reviews .reviews-description h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  #reviews .reviews-description .reviews-description-para {
+    font-size: 1.5rem;
+  }
+  #reviews .reviews {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #reviews .reviews .card-one {
+    margin-right: 2rem;
+  }
+  #reviews .reviews .review-card {
+    max-width: 300px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background: #fff;
+    padding: 2rem;
+    -webkit-box-shadow: 3px 10px 20px #a7a7a7;
+            box-shadow: 3px 10px 20px #a7a7a7;
+    border-radius: 2rem;
+  }
+  #reviews .reviews .review-card .reviews-card-detail {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+  }
+  #reviews .reviews .review-card .company-details {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #reviews .reviews .review-card .company-details img {
+    border-radius: 50%;
+    margin-right: 1rem;
+  }
+  #reviews .reviews .review-card .company-details p {
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+  /*PROJECTS PAGE END*/
   #footer .footer-part-one .identity p {
     font-size: 2rem;
   }
