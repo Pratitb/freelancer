@@ -1538,7 +1538,7 @@
   }
   .mobile-menu-wrapper .mobile-menu {
     position: fixed;
-    bottom: 1rem;
+    bottom: 2rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1780,6 +1780,7 @@
   /*PROJECTS CODE END**************************************************/
   #footer {
     padding: 2rem 2rem;
+    min-height: 50vh;
   }
   #footer .footer-part-one .identity {
     margin-bottom: 1rem;
