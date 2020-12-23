@@ -931,14 +931,14 @@
   .projects{
     padding: 2rem 2rem 4rem 2rem;
     .space-btm{
-      margin-bottom: 3rem;
+      margin-bottom: 5rem;
     }
     .project{
       flex-direction: column;
       min-height: 50vh;
       .project-gallery{
         max-width: 350px;
-        margin-bottom: 1rem;
+        margin-bottom: 3rem;
       }
       .project-content{
         h1{

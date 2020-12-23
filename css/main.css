@@ -1716,7 +1716,7 @@
     padding: 2rem 2rem 4rem 2rem;
   }
   .projects .space-btm {
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
   }
   .projects .project {
     -webkit-box-orient: vertical;
@@ -1727,7 +1727,7 @@
   }
   .projects .project .project-gallery {
     max-width: 350px;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
   }
   .projects .project .project-content h1 {
     font-size: 1.2rem;
