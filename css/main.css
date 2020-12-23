@@ -1567,7 +1567,7 @@
             align-items: center;
   }
   .mobile-menu-wrapper .mobile-menu .menu-item .menu-icons {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     color: white;
     margin-bottom: 0.2rem;
   }
@@ -1585,7 +1585,7 @@
   }
   .mobile-menu-wrapper .mobile-menu .menu-item p {
     color: rgba(255, 255, 255, 0.8);
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   .mobile-menu-wrapper .mobile-menu .menu-item .menu-item-space {
     margin-right: 0.7rem;
