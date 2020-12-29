@@ -13,28 +13,28 @@
       background: #2b616d;
       padding: 0.8rem;
       border-radius: 1rem;
-      box-shadow: 0 19px 38px rgba(0,0,0,0.1), 0 15px 12px rgba(0,0,0,0.1);
+      box-shadow: 0 19px 38px rgba(0, 0, 0, 0.1), 0 15px 12px rgba(0, 0, 0, 0.1);
       z-index: 10;
 
       .menu-item {
         display: flex;
         justify-content: center;
         align-items: center;
-        .menu-icons{
+        .menu-icons {
           font-size: 1.2rem;
-          color: rgba(255,255,255,1);
+          color: rgba(255, 255, 255, 1);
           margin-bottom: 0.2rem;
         }
-        a{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+        a {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
         }
-        p{
-            color: rgba(255,255,255,0.8);
-            font-size: 0.9rem;
+        p {
+          color: rgba(255, 255, 255, 0.8);
+          font-size: 0.9rem;
         }
-        .menu-item-space{
+        .menu-item-space {
           margin-right: 0.7rem;
         }
       }
@@ -91,7 +91,7 @@
     }
     .services {
       .service {
-        img{
+        img {
           max-height: 5rem;
         }
         margin: 0rem 0rem 3rem 0rem;
@@ -157,35 +157,35 @@
     }
   }
   /*PROJECTS CODE START************************************************/
-  .projects-heading{
-    h1{
+  .projects-heading {
+    h1 {
       font-size: 3rem;
     }
   }
-  .projects{
+  .projects {
     padding: 2rem 2rem;
-    .space-btm{
+    .space-btm {
       margin-bottom: 3rem;
     }
-    .project{
+    .project {
       flex-direction: column;
-      .project-gallery{
+      .project-gallery {
         max-width: 300px;
         margin-bottom: 1rem;
       }
-      .project-content{
-        h1{
+      .project-content {
+        h1 {
           font-size: 1.2rem;
           margin-bottom: 1rem;
         }
-        .date{
+        .date {
           font-size: 1rem;
         }
-        .project-description{
+        .project-description {
           font-size: 1rem;
           margin-bottom: 1rem;
         }
-        .website-demo{
+        .website-demo {
           padding: 0.4rem;
           font-size: 0.8rem;
         }
@@ -193,33 +193,92 @@
     }
   }
 
-  #reviews{
+  #reviews {
     display: flex;
     flex-direction: column;
-    .reviews-description{
-      h1{
+    .reviews-description {
+      h1 {
         font-size: 3rem;
       }
-      .reviews-description-para{
+      .reviews-description-para {
         font-size: 1.2rem;
         margin-bottom: 3rem;
       }
     }
-    .reviews{
+    .reviews {
       flex-direction: column;
-      .review-card{
+      .review-card {
         padding: 1.5rem;
-        .reviews-card-detail{
+        .reviews-card-detail {
           font-size: 1.2rem;
         }
       }
-      .card-one{
+      .card-one {
         margin-right: 0rem;
         margin-bottom: 2rem;
       }
     }
   }
   /*PROJECTS CODE END**************************************************/
+
+  /*ABOUT CODE START*************************************************/
+  .about-heading {
+    min-height: 20vh;
+    .heading-two {
+      display: none;
+    }
+  }
+  .about-stories {
+    .about-story {
+      flex-direction: column;
+      margin-bottom: 3rem;
+      .content {
+        max-width: 250px;
+      }
+      .about-image {
+        max-width: 90%;
+        margin-bottom: 2rem;
+      }
+      .svg-creative {
+        max-width: 70%;
+        margin-bottom: 3rem;
+      }
+      .content {
+        order: 1;
+        .content-one,
+        .content-two,
+        .content-three {
+          font-size: 1rem;
+        }
+        .content-heading {
+          font-size: 1.5rem;
+        }
+        .services-link {
+          font-size: 0.9rem;
+          padding: 0.7rem;
+        }
+      }
+    }
+    .about-story-three {
+      margin-bottom: 6rem;
+    }
+  }
+  .connect {
+    max-width: 250px;
+    padding: 2rem;
+    margin: 2rem 0;
+    .connect-heading {
+      font-size: 1.5rem;
+    }
+    .connect-content {
+      font-size: 1rem;
+    }
+    .connect-button {
+      font-size: 0.8rem;
+      padding: 0.8rem;
+    }
+  }
+  /*ABOUT CODE END*************************************************/
   #footer {
     min-height: 70vh;
     padding: 2rem 2rem;
@@ -265,28 +324,28 @@
       background: #2b616d;
       padding: 0.8rem;
       border-radius: 1rem;
-      box-shadow: 0 19px 38px rgba(0,0,0,0.1), 0 15px 12px rgba(0,0,0,0.1);
+      box-shadow: 0 19px 38px rgba(0, 0, 0, 0.1), 0 15px 12px rgba(0, 0, 0, 0.1);
       z-index: 10;
 
       .menu-item {
         display: flex;
         justify-content: center;
         align-items: center;
-        .menu-icons{
+        .menu-icons {
           font-size: 1.3rem;
-          color: rgba(255,255,255,1);
+          color: rgba(255, 255, 255, 1);
           margin-bottom: 0.2rem;
         }
-        a{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+        a {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
         }
-        p{
-            color: rgba(255,255,255,0.8);
-            font-size: 1rem;
+        p {
+          color: rgba(255, 255, 255, 0.8);
+          font-size: 1rem;
         }
-        .menu-item-space{
+        .menu-item-space {
           margin-right: 0.7rem;
         }
       }
@@ -345,10 +404,10 @@
       .service {
         flex-basis: initial;
         margin: 0rem 0rem 3rem 0rem;
-        img{
+        img {
           max-height: 5rem;
         }
-        
+
         .service-details {
           max-width: 13rem;
           h2 {
@@ -412,71 +471,132 @@
   }
 
   /*PROJECTS CODE START************************************************/
-  .projects-heading{
-    h1{
+  .projects-heading {
+    h1 {
       font-size: 3rem;
     }
   }
-  .projects{
+  .projects {
     padding: 2rem 2rem;
-    .space-btm{
-      margin-bottom: 3rem;
+    .space-btm {
+      margin-bottom: 1rem;
     }
-    .project{
+    .project {
       flex-direction: column;
-      .project-gallery{
+      .project-gallery {
         max-width: 300px;
         margin-bottom: 1rem;
       }
-      .project-content{
-        h1{
+      .project-content {
+        h1 {
           font-size: 1.2rem;
           margin-bottom: 1rem;
         }
-        .date{
+        .date {
           font-size: 1rem;
         }
-        .project-description{
+        .project-description {
           font-size: 1rem;
           margin-bottom: 1rem;
         }
-        .website-demo{
-          padding: 0.4rem;
-          font-size: 0.8rem;
+        .website-demo {
+          padding: 0.6rem;
+          font-size: 1rem;
         }
       }
     }
   }
 
-  #reviews{
+  #reviews {
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    .reviews-description{
-      h1{
+    padding: 3rem;
+    .reviews-description {
+      h1 {
         font-size: 3rem;
       }
-      .reviews-description-para{
+      .reviews-description-para {
         font-size: 1.2rem;
         margin-bottom: 3rem;
       }
     }
-    .reviews{
+    .reviews {
       flex-direction: column;
-      .review-card{
+      .review-card {
         padding: 1.5rem;
-        .reviews-card-detail{
-          font-size: 1.2rem;
+        .reviews-card-detail {
+          font-size: 1rem;
         }
       }
-      .card-one{
+      .card-one {
         margin-right: 0rem;
         margin-bottom: 2rem;
       }
     }
   }
   /*PROJECTS CODE END**************************************************/
+
+  /*ABOUT CODE START*************************************************/
+  .about-heading {
+    min-height: 20vh;
+    .heading-two {
+      display: none;
+    }
+  }
+  .about-stories {
+    .about-story {
+      flex-direction: column;
+      margin-bottom: 3rem;
+      .content {
+        max-width: 300px;
+      }
+      .about-image {
+        max-width: 90%;
+        margin-bottom: 2rem;
+      }
+      .svg-creative {
+        max-width: 70%;
+        margin-bottom: 3rem;
+      }
+      .content {
+        order: 1;
+        .content-one,
+        .content-two,
+        .content-three {
+          font-size: 1.2rem;
+        }
+        .content-heading {
+          font-size: 1.5rem;
+        }
+        .services-link {
+          font-size: 0.9rem;
+          padding: 0.7rem;
+        }
+      }
+    }
+    .about-story-three {
+      margin-bottom: 6rem;
+    }
+  }
+  .connect {
+    max-width: 300px;
+    padding: 2rem;
+    margin: 2rem 0;
+    .connect-heading {
+      font-size: 1.5rem;
+    }
+    .connect-content {
+      font-size: 1.2rem;
+    }
+    .connect-button {
+      font-size: 0.9rem;
+      padding: 0.8rem;
+    }
+  }
+  /*ABOUT CODE END*************************************************/
   #footer {
-    min-height: 55vh;
+    min-height: 60vh;
     padding: 2rem 2rem;
     .footer-part-one {
       .identity {
@@ -520,28 +640,28 @@
       background: #2b616d;
       padding: 0.8rem;
       border-radius: 1rem;
-      box-shadow: 0 19px 38px rgba(0,0,0,0.1), 0 15px 12px rgba(0,0,0,0.1);
+      box-shadow: 0 19px 38px rgba(0, 0, 0, 0.1), 0 15px 12px rgba(0, 0, 0, 0.1);
       z-index: 10;
 
       .menu-item {
         display: flex;
         justify-content: center;
         align-items: center;
-        .menu-icons{
+        .menu-icons {
           font-size: 1.3rem;
-          color: rgba(255,255,255,1);
+          color: rgba(255, 255, 255, 1);
           margin-bottom: 0.2rem;
         }
-        a{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+        a {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
         }
-        p{
-            color: rgba(255,255,255,0.8);
-            font-size: 1rem;
+        p {
+          color: rgba(255, 255, 255, 0.8);
+          font-size: 1rem;
         }
-        .menu-item-space{
+        .menu-item-space {
           margin-right: 0.7rem;
         }
       }
@@ -598,7 +718,7 @@
     }
     .services {
       .service {
-        img{
+        img {
           max-height: 5rem;
         }
         margin: 0rem 0rem 3rem 0rem;
@@ -666,36 +786,36 @@
   }
 
   /*PROJECTS CODE START************************************************/
-  .projects-heading{
-    h1{
+  .projects-heading {
+    h1 {
       font-size: 4rem;
     }
   }
-  .projects{
+  .projects {
     padding: 2rem 2rem 4rem 2rem;
-    .space-btm{
+    .space-btm {
       margin-bottom: 3rem;
     }
-    .project{
+    .project {
       flex-direction: column;
       min-height: 50vh;
-      .project-gallery{
+      .project-gallery {
         max-width: 350px;
         margin-bottom: 1rem;
       }
-      .project-content{
-        h1{
+      .project-content {
+        h1 {
           font-size: 1.2rem;
           margin-bottom: 1rem;
         }
-        .date{
+        .date {
           font-size: 1rem;
         }
-        .project-description{
+        .project-description {
           font-size: 1rem;
           margin-bottom: 1rem;
         }
-        .website-demo{
+        .website-demo {
           padding: 0.4rem;
           font-size: 0.8rem;
         }
@@ -703,34 +823,96 @@
     }
   }
 
-  #reviews{
+  #reviews {
     display: flex;
     flex-direction: column;
     padding: 3rem 2rem;
-    .reviews-description{
-      h1{
+    .reviews-description {
+      h1 {
         font-size: 3rem;
       }
-      .reviews-description-para{
+      .reviews-description-para {
         font-size: 1.2rem;
         margin-bottom: 3rem;
       }
     }
-    .reviews{
+    .reviews {
       flex-direction: column;
-      .review-card{
+      .review-card {
         padding: 1.5rem;
-        .reviews-card-detail{
+        .reviews-card-detail {
           font-size: 1.2rem;
         }
       }
-      .card-one{
+      .card-one {
         margin-right: 0rem;
         margin-bottom: 2rem;
       }
     }
   }
   /*PROJECTS CODE END**************************************************/
+
+  /*ABOUT CODE START*************************************************/
+  .about-heading {
+    min-height: 20vh;
+    .heading-one {
+      font-size: 2.5rem;
+    }
+    .heading-two {
+      display: none;
+    }
+  }
+  .about-stories {
+    .about-story {
+      flex-direction: column;
+      margin-bottom: 3rem;
+      .content {
+        max-width: 300px;
+      }
+      .about-image {
+        max-width: 90%;
+        margin-bottom: 2rem;
+      }
+      .svg-creative {
+        max-width: 70%;
+        margin-bottom: 3rem;
+      }
+      .content {
+        order: 1;
+        .content-one,
+        .content-two,
+        .content-three {
+          font-size: 1.2rem;
+        }
+        .content-heading {
+          font-size: 1.5rem;
+        }
+        .services-link {
+          font-size: 0.9rem;
+          padding: 0.7rem;
+        }
+      }
+    }
+    .about-story-three {
+      margin-bottom: 6rem;
+    }
+  }
+  .connect {
+    max-width: 300px;
+    padding: 2rem;
+    margin: 2rem 0;
+    .connect-heading {
+      font-size: 1.5rem;
+    }
+    .connect-content {
+      font-size: 1.2rem;
+    }
+    .connect-button {
+      font-size: 0.9rem;
+      padding: 0.8rem;
+    }
+  }
+  /*ABOUT CODE END*************************************************/
   #footer {
     min-height: 45vh;
     padding: 2rem 2rem;
@@ -776,28 +958,28 @@
       background: #2b616d;
       padding: 0.8rem;
       border-radius: 1rem;
-      box-shadow: 0 19px 38px rgba(0,0,0,0.1), 0 15px 12px rgba(0,0,0,0.1);
+      box-shadow: 0 19px 38px rgba(0, 0, 0, 0.1), 0 15px 12px rgba(0, 0, 0, 0.1);
       z-index: 10;
 
       .menu-item {
         display: flex;
         justify-content: center;
         align-items: center;
-        .menu-icons{
+        .menu-icons {
           font-size: 1.5rem;
-          color: rgba(255,255,255,1);
+          color: rgba(255, 255, 255, 1);
           margin-bottom: 0.2rem;
         }
-        a{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+        a {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
         }
-        p{
-            color: rgba(255,255,255,0.8);
-            font-size: 1.2rem;
+        p {
+          color: rgba(255, 255, 255, 0.8);
+          font-size: 1.2rem;
         }
-        .menu-item-space{
+        .menu-item-space {
           margin-right: 0.7rem;
         }
       }
@@ -854,7 +1036,7 @@
     }
     .services {
       .service {
-        img{
+        img {
           max-height: 5rem;
         }
         margin: 0rem 0rem 3rem 0rem;
@@ -912,7 +1094,7 @@
       align-items: center;
       h1 {
         margin-bottom: 1.5rem;
-        font-size: 1.5rem;
+        font-size: 1.9rem;
       }
       .brands {
         img {
@@ -923,36 +1105,36 @@
   }
 
   /*PROJECTS CODE START************************************************/
-  .projects-heading{
-    h1{
+  .projects-heading {
+    h1 {
       font-size: 4rem;
     }
   }
-  .projects{
+  .projects {
     padding: 2rem 2rem 4rem 2rem;
-    .space-btm{
+    .space-btm {
       margin-bottom: 5rem;
     }
-    .project{
+    .project {
       flex-direction: column;
       min-height: 50vh;
-      .project-gallery{
+      .project-gallery {
         max-width: 350px;
         margin-bottom: 3rem;
       }
-      .project-content{
-        h1{
+      .project-content {
+        h1 {
           font-size: 1.2rem;
           margin-bottom: 1rem;
         }
-        .date{
+        .date {
           font-size: 1rem;
         }
-        .project-description{
+        .project-description {
           font-size: 1rem;
           margin-bottom: 1rem;
         }
-        .website-demo{
+        .website-demo {
           padding: 0.8rem;
           font-size: 1rem;
         }
@@ -960,34 +1142,96 @@
     }
   }
 
-  #reviews{
+  #reviews {
     display: flex;
     flex-direction: column;
     padding: 3rem 2rem;
-    .reviews-description{
-      h1{
+    .reviews-description {
+      h1 {
         font-size: 3rem;
       }
-      .reviews-description-para{
+      .reviews-description-para {
         font-size: 1.2rem;
         margin-bottom: 3rem;
       }
     }
-    .reviews{
+    .reviews {
       flex-direction: column;
-      .review-card{
+      .review-card {
         padding: 1.5rem;
-        .reviews-card-detail{
+        .reviews-card-detail {
           font-size: 1.2rem;
         }
       }
-      .card-one{
+      .card-one {
         margin-right: 0rem;
         margin-bottom: 2rem;
       }
     }
   }
   /*PROJECTS CODE END**************************************************/
+
+  /*ABOUT CODE START*************************************************/
+  .about-heading {
+    min-height: 20vh;
+    .heading-one {
+      font-size: 2.5rem;
+    }
+    .heading-two {
+      display: none;
+    }
+  }
+  .about-stories {
+    .about-story {
+      flex-direction: column;
+      margin-bottom: 3rem;
+      .content {
+        max-width: 350px;
+      }
+      .about-image {
+        max-width: 90%;
+        margin-bottom: 2rem;
+      }
+      .svg-creative {
+        max-width: 70%;
+        margin-bottom: 3rem;
+      }
+      .content {
+        order: 1;
+        .content-one,
+        .content-two,
+        .content-three {
+          font-size: 1.2rem;
+        }
+        .content-heading {
+          font-size: 1.5rem;
+        }
+        .services-link {
+          font-size: 0.9rem;
+          padding: 0.7rem;
+        }
+      }
+    }
+    .about-story-three {
+      margin-bottom: 6rem;
+    }
+  }
+  .connect {
+    max-width: 350px;
+    padding: 2rem;
+    margin: 2rem 0;
+    .connect-heading {
+      font-size: 1.9rem;
+    }
+    .connect-content {
+      font-size: 1.2rem;
+    }
+    .connect-button {
+      font-size: 0.9rem;
+      padding: 0.8rem;
+    }
+  }
+  /*ABOUT CODE END*************************************************/
   #footer {
     padding: 2rem 2rem;
     min-height: 50vh;
@@ -1041,14 +1285,14 @@
       }
     }
   }
-  #booking{
-    .booking{
+  #booking {
+    .booking {
       max-width: 1100px;
-      .booking-description{
-        h1{
+      .booking-description {
+        h1 {
           font-size: 2.5rem;
         }
-        p{
+        p {
           font-size: 1.7rem;
         }
       }
@@ -1071,19 +1315,19 @@
       display: flex;
       justify-content: space-evenly;
       align-items: center;
-      min-height: 80vh;
-  
+      min-height: 60vh;
+
       .project-gallery {
         box-shadow: 12px 12px 20px #a7a7a7;
-        max-width: 500px;
+        max-width: 550px;
         margin-bottom: 5rem;
-  
+
         .slick-slide {
           border-radius: 1rem;
         }
       }
       .project-content {
-        max-width: 500px;
+        max-width: 400px;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -1117,56 +1361,56 @@
       }
     }
   }
-  #reviews{
+  #reviews {
     background: rgba(178, 219, 213, 0.2);
-    min-height: 50vh;
+    min-height: 60vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 2rem;
-    .reviews-description{
+    padding: 3rem;
+    .reviews-description {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      max-width: 500px;
-      h1{
-        font-size: 2.5rem;
+      max-width: 400px;
+      h1 {
+        font-size: 3rem;
         margin-bottom: 1rem;
       }
-      .reviews-description-para{
+      .reviews-description-para {
         font-size: 1.2rem;
       }
     }
-    .reviews{
+    .reviews {
       display: flex;
       justify-content: space-evenly;
       flex-direction: row;
-      .card-one{
+      .card-one {
         margin-right: 2rem;
       }
-      .review-card{
-        max-width: 300px;
+      .review-card {
+        max-width: 250px;
         display: flex;
         flex-direction: column;
         background: #fff;
         padding: 2rem;
         box-shadow: 3px 10px 20px #a7a7a7;
         border-radius: 2rem;
-        .reviews-card-detail{
+        .reviews-card-detail {
           font-size: 1.2rem;
           margin-bottom: 1rem;
         }
-        
-        .company-details{
+
+        .company-details {
           display: flex;
           align-items: center;
           flex-direction: row;
-          img{
+          img {
             border-radius: 50%;
             margin-right: 1rem;
           }
-          p{
+          p {
             font-size: 1.1rem;
             font-weight: 600;
           }
@@ -1174,19 +1418,33 @@
       }
     }
   }
-  
+
   /*PROJECTS PAGE END*/
+  /*ABOUT CODE START********************************************************/
+  .about-stories {
+    padding: 3rem;
+    .about-story {
+      .content{
+        max-width: 500px;
+      }
+      .about-image {
+        max-width: 50%;
+      }
+    }
+  }
+  /*ABOUT CODE END********************************************************/
   #footer {
     .footer-part-one {
       .identity {
         p {
-          font-size: 2rem;
+          font-size: 1.5rem;
         }
       }
       .footer-description {
-        max-width: 700px;
+        max-width: 600px;
         p {
-          font-size: 1.5rem;
+          font-size: 1.2rem;
+          margin-bottom: 3rem;
         }
         .footer-hiring {
           font-size: 1rem;
@@ -1219,16 +1477,16 @@
       }
     }
   }
-  #booking{
-    .booking{
+  #booking {
+    .booking {
       padding: 2rem;
       max-width: 1200px;
-      .booking-description{
+      .booking-description {
         justify-content: inherit;
-        h1{
+        h1 {
           font-size: 3rem;
         }
-        p{
+        p {
           font-size: 1.7rem;
         }
       }
@@ -1252,13 +1510,11 @@
       justify-content: space-evenly;
       align-items: center;
       min-height: 60vh;
-  
+
       .project-gallery {
         box-shadow: 12px 12px 20px #a7a7a7;
         max-width: 600px;
         margin-bottom: 5rem;
-  
-        
       }
       .project-content {
         max-width: 500px;
@@ -1295,35 +1551,35 @@
       }
     }
   }
-  #reviews{
+  #reviews {
     background: rgba(178, 219, 213, 0.2);
     min-height: 50vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     padding: 2rem;
-    .reviews-description{
+    .reviews-description {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       max-width: 500px;
-      h1{
+      h1 {
         font-size: 3rem;
         margin-bottom: 1rem;
       }
-      .reviews-description-para{
+      .reviews-description-para {
         font-size: 1.5rem;
       }
     }
-    .reviews{
+    .reviews {
       display: flex;
       justify-content: space-evenly;
       flex-direction: row;
-      .card-one{
+      .card-one {
         margin-right: 2rem;
       }
-      .review-card{
+      .review-card {
         max-width: 300px;
         display: flex;
         flex-direction: column;
@@ -1331,20 +1587,20 @@
         padding: 2rem;
         box-shadow: 3px 10px 20px #a7a7a7;
         border-radius: 2rem;
-        .reviews-card-detail{
+        .reviews-card-detail {
           font-size: 1.4rem;
           margin-bottom: 1rem;
         }
-        
-        .company-details{
+
+        .company-details {
           display: flex;
           align-items: center;
           flex-direction: row;
-          img{
+          img {
             border-radius: 50%;
             margin-right: 1rem;
           }
-          p{
+          p {
             font-size: 1.3rem;
             font-weight: 600;
           }
@@ -1352,8 +1608,21 @@
       }
     }
   }
-  
+
   /*PROJECTS PAGE END*/
+  /*ABOUT CODE START********************************************************/
+  .about-stories {
+    padding: 3rem;
+    .about-story {
+      .content{
+        max-width: 600px;
+      }
+      .about-image {
+        max-width: 50%;
+      }
+    }
+  }
+  /*ABOUT CODE END********************************************************/
   #footer {
     .footer-part-one {
       .identity {
