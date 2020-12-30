@@ -279,6 +279,35 @@
     }
   }
   /*ABOUT CODE END*************************************************/
+  /*CONTACT CODE START*********************************************/
+  #contact {
+    .contact-heading {
+      max-width: 300px;
+      min-height: 40vh;
+      h1 {
+        font-size: 2.5rem;
+      }
+    }
+    .contact-main-content {
+      flex-direction: column;
+      .contact-descriptive-content {
+        margin-bottom: 2rem;
+        .contact-descriptive-heading {
+          font-size: 1.5rem;
+        }
+      }
+      .contact-booking {
+        .calendly-inline-widget {
+          max-width: 270px;
+        }
+      }
+    }
+  }
+  #reviews {
+    margin-top: -1rem;
+  }
+  /*CONTACT CODE END*********************************************/
+
   #footer {
     min-height: 70vh;
     padding: 2rem 2rem;
@@ -526,7 +555,7 @@
       .review-card {
         padding: 1.5rem;
         .reviews-card-detail {
-          font-size: 1rem;
+          font-size: 1.2rem;
         }
       }
       .card-one {
@@ -595,30 +624,59 @@
     }
   }
   /*ABOUT CODE END*************************************************/
+
+  /*CONTACT CODE START*********************************************/
+  #contact {
+    .contact-heading {
+      max-width: 300px;
+      min-height: 40vh;
+      h1 {
+        font-size: 2.5rem;
+      }
+    }
+    .contact-main-content {
+      flex-direction: column;
+      .contact-descriptive-content {
+        margin-bottom: 2rem;
+        .contact-descriptive-heading {
+          font-size: 1.5rem;
+        }
+      }
+      .contact-booking {
+        .calendly-inline-widget {
+          max-width: 320px;
+        }
+      }
+    }
+  }
+  #reviews {
+    margin-top: -1rem;
+  }
+  /*CONTACT CODE END*********************************************/
   #footer {
-    min-height: 60vh;
+    min-height: 70vh;
     padding: 2rem 2rem;
     .footer-part-one {
       .identity {
         margin-bottom: 1rem;
         p {
-          font-size: 1.3rem;
+          font-size: 1.5rem;
         }
       }
       .footer-description {
         p {
-          font-size: 1rem;
+          font-size: 1.2rem;
         }
         .footer-hiring {
-          font-size: 0.8rem;
-          padding: 0.6rem;
+          font-size: 1rem;
+          padding: 0.8rem;
         }
       }
       .social-links {
-        margin: 2rem 0rem;
+        margin: 3rem 0rem;
         a {
           img {
-            max-width: 8%;
+            max-width: 12%;
           }
         }
       }
@@ -913,6 +971,35 @@
     }
   }
   /*ABOUT CODE END*************************************************/
+
+  /*CONTACT CODE START*********************************************/
+  #contact {
+    .contact-heading {
+      max-width: 365px;
+      min-height: 30vh;
+      h1 {
+        font-size: 2.5rem;
+      }
+    }
+    .contact-main-content {
+      flex-direction: column;
+      .contact-descriptive-content {
+        margin-bottom: 2rem;
+        .contact-descriptive-heading {
+          font-size: 1.5rem;
+        }
+      }
+      .contact-booking {
+        .calendly-inline-widget {
+          max-width: 350px;
+        }
+      }
+    }
+  }
+  #reviews {
+    margin-top: -1rem;
+  }
+  /*CONTACT CODE END*********************************************/
   #footer {
     min-height: 45vh;
     padding: 2rem 2rem;
@@ -1232,6 +1319,35 @@
     }
   }
   /*ABOUT CODE END*************************************************/
+
+  /*CONTACT CODE START*********************************************/
+  #contact {
+    .contact-heading {
+      max-width: 390px;
+      min-height: 25vh;
+      h1 {
+        font-size: 2.5rem;
+      }
+    }
+    .contact-main-content {
+      flex-direction: column;
+      .contact-descriptive-content {
+        margin-bottom: 2rem;
+        .contact-descriptive-heading {
+          font-size: 1.5rem;
+        }
+      }
+      .contact-booking {
+        .calendly-inline-widget {
+          max-width: 390px;
+        }
+      }
+    }
+  }
+  #reviews {
+    margin-top: -1rem;
+  }
+  /*CONTACT CODE END*********************************************/
   #footer {
     padding: 2rem 2rem;
     min-height: 50vh;
@@ -1424,7 +1540,7 @@
   .about-stories {
     padding: 3rem;
     .about-story {
-      .content{
+      .content {
         max-width: 500px;
       }
       .about-image {
@@ -1614,7 +1730,7 @@
   .about-stories {
     padding: 3rem;
     .about-story {
-      .content{
+      .content {
         max-width: 600px;
       }
       .about-image {
