@@ -539,6 +539,10 @@
   margin-bottom: 1rem;
 }
 
+#reviews .reviews .review-card .reviews-card-detail .review-keyword {
+  font-weight: 600;
+}
+
 #reviews .reviews .review-card .company-details {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2575,6 +2579,15 @@
   }
   #booking .booking .booking-description .booking-heading {
     font-size: 2.5rem;
+  }
+  .projects .project {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .projects .project .project-gallery {
+    max-width: 600px;
   }
   #footer {
     min-height: 70vh;

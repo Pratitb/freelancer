@@ -106,6 +106,14 @@
         }
       }
     }
+    .projects{
+      .project{
+        flex-direction: column;
+        .project-gallery{
+          max-width: 600px;
+        }
+      }
+    }
     #footer {
       min-height: 70vh;
       .footer-part-one {
