@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
 @import "variables";
 @import "header";
 @import "index";
@@ -7,17 +7,31 @@
 @import "contact";
 @import "trust";
 @import "footer";
-@import "responsive";
+/*MOBILES*/
+@import "small-mobiles";
+@import "medium-mobiles";
+@import "medium-large-mobiles";
+@import "large-mobiles";
+/*IPADS*/
+@import "small-ipads";
+@import "large-ipads";
+/*LAPTOPS*/
+@import "medium-laptops";
+@import "large-laptops";
 
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    font-family: 'Josefin Sans', sans-serif;
+body {
+  font-family: "Josefin Sans", sans-serif;
 }
-.text-decor-none{
-    text-decoration: none;
+a {
+  text-decoration: none;
+}
+@media (min-width: 1025px) {
+  .mobile-menu {
+    display: none;
+  }
 }

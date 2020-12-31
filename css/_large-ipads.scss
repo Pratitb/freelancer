@@ -1,0 +1,164 @@
+/*901 to 1024 for BIG IPADS*****************************/
+@media (min-width: 901px) and (max-width: 1024px) {
+    .mobile-menu-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .mobile-menu {
+        position: fixed;
+        bottom: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #2b616d;
+        padding: 1.5rem;
+        border-radius: 1rem;
+        box-shadow: 0 19px 38px rgba(0, 0, 0, 0.1), 0 15px 12px rgba(0, 0, 0, 0.1);
+        z-index: 10;
+  
+        .menu-item {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          .menu-icons {
+            font-size: 2.7rem;
+            color: rgba(255, 255, 255, 1);
+            margin-bottom: 0.2rem;
+          }
+          a {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+          p {
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 2.7rem;
+          }
+          .menu-item-space {
+            margin-right: 2rem;
+          }
+        }
+      }
+    }
+    header {
+      .blm {
+        padding: 1.5rem;
+        a {
+          font-size: 2.2rem;
+        }
+        .blm-fists {
+          font-size: 2rem;
+          width: 5rem;
+        }
+      }
+      .navigation {
+        display: none;
+      }
+    }
+    #home {
+      min-height: 60vh;
+      .headings {
+        max-width: 700px;
+        align-items: center;
+        .contact-one {
+          font-size: 2.5rem;
+          padding: 1.5rem;
+        }
+        .home-heading-one {
+          font-size: 2rem;
+        }
+        .home-heading-two {
+          font-size: 4.5rem;
+        }
+      }
+    }
+    #mockups {
+      .mockups {
+        img {
+          max-width: 60%;
+        }
+        .mobile {
+          max-width: 35%;
+        }
+      }
+    }
+    #services {
+      .section-heading {
+        h1 {
+          font-size: 3rem;
+        }
+      }
+      .services {
+        justify-content: center;
+        .service {
+          flex-basis: 45%;
+          .service-details {
+            h2 {
+              font-size: 2rem;
+            }
+            p{
+              font-size: 1.6rem;
+            }
+          }
+        }
+      }
+      .more-services{
+        a{
+          font-size: 1.6rem;
+        }
+      }
+    }
+    #booking {
+      .booking {
+        flex-direction: column;
+        align-items: center;
+        padding: 4rem;
+        img {
+          max-width: 50%;
+          margin-bottom: 4rem;
+        }
+        .booking-description {
+          max-width: 700px;
+          align-items: center;
+          .booking-heading {
+            font-size: 3rem;
+          }
+          .booking-content{
+            font-size: 2rem;
+          }
+          .booking-button{
+            font-size: 2rem;
+          }
+        }
+      }
+    }
+    #footer {
+      min-height: 50vh;
+      .footer-part-one {
+        .identity{
+          p{
+            font-size: 2.5rem;
+          }
+        }
+        .footer-description {
+          p {
+            font-size: 2rem;
+            margin-bottom: 3rem;
+          }
+          .footer-hiring{
+            font-size: 1.5rem;
+            padding: 1rem;
+          }
+        }
+        .social-links {
+          margin: 4rem 0;
+          a {
+            img {
+              max-width: 9%;
+              margin-right: 2rem;
+            }
+          }
+        }
+      }
+    }
+  }
