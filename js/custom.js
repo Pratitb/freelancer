@@ -9,7 +9,7 @@ externalLinks();
 
 // Animate on scroll library initialization
 AOS.init({
-  duration:1500
+  duration:2000
 });
 
 /*window.onscroll = function(){
