@@ -370,6 +370,95 @@
   border: 1px solid #fa8d62;
 }
 
+.page-services {
+  padding: 5rem 0;
+}
+
+.page-services-heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 50vh;
+}
+
+.page-services-heading h1 {
+  max-width: 700px;
+  font-size: 5rem;
+}
+
+.page-services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  min-height: 100vh;
+}
+
+.page-services .page-service {
+  max-width: 500px;
+  margin-bottom: 2rem;
+}
+
+.page-services .page-service .page-service-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.page-services .page-service .page-service-content:hover img {
+  background: #b2dbd5;
+}
+
+.page-services .page-service .page-service-content img {
+  max-width: 8rem;
+  background: rgba(178, 219, 213, 0.2);
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+}
+
+.page-services .page-service .page-service-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.page-services .page-service .page-service-content p {
+  font-size: 1.5rem;
+}
+
+.services-footer {
+  background: white !important;
+}
+
 .projects-heading {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1018,7 +1107,7 @@
             align-items: center;
   }
   .mobile-menu-wrapper .mobile-menu .menu-item .menu-icons {
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: white;
     margin-bottom: 0.2rem;
   }
@@ -1036,7 +1125,7 @@
   }
   .mobile-menu-wrapper .mobile-menu .menu-item p {
     color: rgba(255, 255, 255, 0.8);
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
   .mobile-menu-wrapper .mobile-menu .menu-item .menu-item-space {
     margin-right: 0.7rem;
@@ -1081,16 +1170,17 @@
     padding: 1.2rem;
   }
   #services .section-heading h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 3rem;
   }
   #services .services .service {
-    margin: 0rem 0rem 3rem 0rem;
     -ms-flex-preferred-size: initial;
         flex-basis: initial;
+    margin: 0rem 0rem 3rem 0rem;
   }
   #services .services .service img {
-    max-height: 5rem;
+    max-height: 4rem;
+    padding: 0.9rem;
   }
   #services .services .service .service-details {
     max-width: 13rem;
@@ -1120,19 +1210,20 @@
     padding: 1.5rem;
   }
   #booking .booking img {
-    max-width: 60%;
+    max-width: 90%;
   }
   #booking .booking .booking-description {
     margin-top: 1rem;
     max-width: 100%;
     padding: 1.4rem;
   }
-  #booking .booking .booking-description h1 {
+  #booking .booking .booking-description .booking-heading {
     font-size: 1rem;
     margin-bottom: 0.5rem;
   }
-  #booking .booking .booking-description p {
-    font-size: 0.8rem;
+  #booking .booking .booking-description .booking-content {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
   }
   #booking .booking .booking-description .booking-button-wrapper {
     margin-top: 1rem;
@@ -1202,10 +1293,10 @@
             flex-direction: column;
   }
   #reviews .reviews-description h1 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
   #reviews .reviews-description .reviews-description-para {
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-bottom: 3rem;
   }
   #reviews .reviews {
@@ -1327,14 +1418,14 @@
     font-size: 1rem;
   }
   #footer .footer-part-one .footer-description .footer-hiring {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     padding: 0.6rem;
   }
   #footer .footer-part-one .social-links {
     margin: 2rem 0rem;
   }
   #footer .footer-part-one .social-links a img {
-    max-width: 8%;
+    max-width: 10%;
   }
 }
 
@@ -1454,7 +1545,8 @@
     margin: 0rem 0rem 3rem 0rem;
   }
   #services .services .service img {
-    max-height: 5rem;
+    max-height: 4rem;
+    padding: 0.9rem;
   }
   #services .services .service .service-details {
     max-width: 13rem;
@@ -1485,26 +1577,27 @@
     padding: 1.9rem;
   }
   #booking .booking img {
-    max-width: 60%;
+    max-width: 90%;
   }
   #booking .booking .booking-description {
     margin-top: 1rem;
     max-width: 100%;
     padding: 1.4rem;
   }
-  #booking .booking .booking-description h1 {
+  #booking .booking .booking-description .booking-heading {
     font-size: 1.2rem;
     margin-bottom: 0.5rem;
   }
-  #booking .booking .booking-description p {
+  #booking .booking .booking-description .booking-content {
     font-size: 0.9rem;
+    margin-bottom: 1rem;
   }
   #booking .booking .booking-description .booking-button-wrapper {
     margin-top: 1rem;
   }
   #booking .booking .booking-description .booking-button-wrapper .booking-button {
-    font-size: 0.8rem;
-    padding: 0.6rem 0.6rem;
+    font-size: 1rem;
+    padding: 0.7rem;
   }
   #trust {
     min-height: 40vh;
@@ -1691,17 +1784,17 @@
     font-size: 1.5rem;
   }
   #footer .footer-part-one .footer-description p {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   #footer .footer-part-one .footer-description .footer-hiring {
-    font-size: 1rem;
-    padding: 0.8rem;
+    font-size: 0.8rem;
+    padding: 0.7rem;
   }
   #footer .footer-part-one .social-links {
     margin: 3rem 0rem;
   }
   #footer .footer-part-one .social-links a img {
-    max-width: 12%;
+    max-width: 9%;
   }
 }
 
@@ -1821,7 +1914,8 @@
         flex-basis: initial;
   }
   #services .services .service img {
-    max-height: 5rem;
+    max-height: 4rem;
+    padding: 0.7rem;
   }
   #services .services .service .service-details {
     max-width: 17rem;
@@ -1852,26 +1946,27 @@
     padding: 1.9rem;
   }
   #booking .booking img {
-    max-width: 60%;
+    max-width: 90%;
   }
   #booking .booking .booking-description {
     margin-top: 1rem;
     max-width: 100%;
     padding: 1.4rem;
   }
-  #booking .booking .booking-description h1 {
-    font-size: 1.2rem;
+  #booking .booking .booking-description .booking-heading {
+    font-size: 1.3rem;
     margin-bottom: 0.5rem;
   }
-  #booking .booking .booking-description p {
-    font-size: 0.9rem;
+  #booking .booking .booking-description .booking-content {
+    font-size: 1rem;
+    margin-bottom: 1rem;
   }
   #booking .booking .booking-description .booking-button-wrapper {
     margin-top: 1rem;
   }
   #booking .booking .booking-description .booking-button-wrapper .booking-button {
-    font-size: 0.8rem;
-    padding: 0.6rem 0.6rem;
+    font-size: 1rem;
+    padding: 0.7rem;
   }
   #trust {
     min-height: 35vh;
@@ -1891,13 +1986,13 @@
   }
   /*PROJECTS CODE START************************************************/
   .projects-heading h1 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
   .projects {
     padding: 2rem 2rem 4rem 2rem;
   }
   .projects .space-btm {
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
   }
   .projects .project {
     -webkit-box-orient: vertical;
@@ -1908,7 +2003,7 @@
   }
   .projects .project .project-gallery {
     max-width: 350px;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
   .projects .project .project-content h1 {
     font-size: 1.2rem;
@@ -1936,10 +2031,10 @@
     padding: 3rem 2rem;
   }
   #reviews .reviews-description h1 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
   #reviews .reviews-description .reviews-description-para {
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-bottom: 3rem;
   }
   #reviews .reviews {
@@ -2119,7 +2214,7 @@
             align-items: center;
   }
   .mobile-menu-wrapper .mobile-menu .menu-item .menu-icons {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: white;
     margin-bottom: 0.2rem;
   }
@@ -2137,7 +2232,7 @@
   }
   .mobile-menu-wrapper .mobile-menu .menu-item p {
     color: rgba(255, 255, 255, 0.8);
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   .mobile-menu-wrapper .mobile-menu .menu-item .menu-item-space {
     margin-right: 0.7rem;
@@ -2191,7 +2286,8 @@
         flex-basis: initial;
   }
   #services .services .service img {
-    max-height: 5rem;
+    max-height: 4.5rem;
+    padding: 0.8rem;
   }
   #services .services .service .service-details {
     max-width: 17rem;
@@ -2222,18 +2318,19 @@
     padding: 1.9rem;
   }
   #booking .booking img {
-    max-width: 60%;
+    max-width: 90%;
+    margin-bottom: 2rem;
   }
   #booking .booking .booking-description {
     margin-top: 1rem;
     max-width: 100%;
-    padding: 1.4rem;
+    padding: 1.7rem;
   }
-  #booking .booking .booking-description h1 {
-    font-size: 1.2rem;
+  #booking .booking .booking-description .booking-heading {
+    font-size: 1.3rem;
     margin-bottom: 0.5rem;
   }
-  #booking .booking .booking-description p {
+  #booking .booking .booking-description .booking-content {
     font-size: 1rem;
     margin-bottom: 1rem;
   }
@@ -2241,8 +2338,8 @@
     margin-top: 1rem;
   }
   #booking .booking .booking-description .booking-button-wrapper .booking-button {
-    font-size: 0.9rem;
-    padding: 0.6rem 0.6rem;
+    font-size: 1rem;
+    padding: 0.8rem;
   }
   #trust {
     min-height: 35vh;
@@ -2435,7 +2532,7 @@
     font-size: 1.1rem;
   }
   #footer .footer-part-one .footer-description .footer-hiring {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     padding: 0.6rem;
   }
   #footer .footer-part-one .social-links {
