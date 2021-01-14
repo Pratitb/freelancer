@@ -227,6 +227,60 @@
       }
     }
     /*PROJECTS CODE END**************************************************/
+    /*SERVICES CODE START*************************************************/
+    #page-services-wrapper {
+      padding: 2rem;
+  
+      .page-services-heading {
+        min-height: 35vh;
+        h1 {
+          font-size: 3.4rem;
+          max-width: 300px;
+        }
+      }
+      .page-services{
+        padding: 5rem 0rem 0rem 0rem;
+        .page-service{
+          margin-bottom: 5rem;
+          .page-service-content{
+            
+            img{
+              max-width: 7rem;
+            }
+            h1{
+              font-size: 1.5rem;
+              margin-bottom: 1rem;
+            }
+            p{
+              font-size: 1.2rem;
+            }
+          }
+        }
+      }
+    }
+    .services-reviews{
+      min-height: 100vh;
+      .reviews-description{
+        h1{
+          font-size: 2.4rem!important;
+        }
+        .reviews-description-para{
+          font-size: 1.2rem!important;
+        }
+      }
+      .reviews{
+        .review-card{
+          .reviews-card-detail{
+            font-size: 1rem!important;
+          }
+          .company-details{
+            p{
+              font-size: 1rem!important;
+            }
+          }
+        }
+      }
+    }
   
     /*ABOUT CODE START*************************************************/
     .about-heading {

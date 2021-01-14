@@ -77,6 +77,11 @@
         display: flex;
         flex-basis: 32%;
         margin: 0rem 1rem 5rem 0rem;
+        &:hover img {
+          background: rgba(178, 219, 213, 1);
+          box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+            0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
         img {
           max-height: 5rem;
           max-width: 5rem;
@@ -86,11 +91,7 @@
           padding: 0rem 0.8rem;
           margin-right: 1rem;
           transition: 0.5s linear;
-          &:hover {
-            background: rgba(178, 219, 213, 1);
-            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
-              0 4px 6px -2px rgba(0, 0, 0, 0.05);
-          }
+          
         }
         .service-details {
           max-width: 350px;
