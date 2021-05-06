@@ -1,137 +1,257 @@
 /*768 to 900 for SMALL IPADS*****************************/
 @media (min-width: 768px) and (max-width: 900px) {
-    .mobile-menu-wrapper {
+  .mobile-menu-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .mobile-menu {
+      position: fixed;
+      bottom: 2rem;
       display: flex;
       justify-content: center;
       align-items: center;
-      .mobile-menu {
-        position: fixed;
-        bottom: 2rem;
+      background: #2b616d;
+      padding: 1rem;
+      border-radius: 1rem;
+      box-shadow: 0 19px 38px rgba(0, 0, 0, 0.1), 0 15px 12px rgba(0, 0, 0, 0.1);
+      z-index: 10;
+
+      .menu-item {
         display: flex;
         justify-content: center;
         align-items: center;
-        background: #2b616d;
-        padding: 1.5rem;
-        border-radius: 1rem;
-        box-shadow: 0 19px 38px rgba(0, 0, 0, 0.1), 0 15px 12px rgba(0, 0, 0, 0.1);
-        z-index: 10;
-  
-        .menu-item {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          .menu-icons {
-            font-size: 2rem;
-            color: rgba(255, 255, 255, 1);
-            margin-bottom: 0.2rem;
-          }
-          a {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-          }
-          p {
-            color: rgba(255, 255, 255, 0.8);
-            font-size: 2rem;
-          }
-          .menu-item-space {
-            margin-right: 1rem;
-          }
+        .menu-icons {
+          font-size: 1.5rem;
+          color: rgba(255, 255, 255, 1);
+          margin-bottom: 0.2rem;
         }
-      }
-    }
-    header {
-      .blm {
-        padding: 1.5rem;
         a {
-          font-size: 1.7rem;
-        }
-        .blm-fists {
-          font-size: 1.5rem;
-          width: 4rem;
-        }
-      }
-      .navigation {
-        display: none;
-      }
-    }
-    #home {
-      min-height: 60vh;
-      .headings {
-        align-items: center;
-        .contact-one {
-          font-size: 1.5rem;
-          padding: 1.3rem;
-        }
-      }
-    }
-    #mockups {
-      .mockups {
-        img {
-          max-width: 60%;
-        }
-        .mobile {
-          max-width: 35%;
-        }
-      }
-    }
-    #services {
-      .section-heading {
-        h1 {
-          font-size: 5rem;
-        }
-      }
-      .services {
-        justify-content: center;
-        .service {
-          flex-basis: 47%;
-        }
-      }
-    }
-    #booking {
-      .booking {
-        flex-direction: column;
-        align-items: center;
-        padding: 4rem;
-        img {
-          max-width: 60%;
-          margin-bottom: 2rem;
-        }
-        .booking-description {
-          max-width: 600px;
+          display: flex;
+          flex-direction: column;
           align-items: center;
-          .booking-heading {
-            font-size: 2.5rem;
+        }
+        p {
+          color: rgba(255, 255, 255, 0.8);
+          font-size: 1.3rem;
+        }
+        .menu-item-space {
+          margin-right: 1rem;
+        }
+      }
+    }
+  }
+  header {
+    .blm {
+      padding: 0.5rem;
+      a {
+        font-size: 1.4rem;
+      }
+      .blm-fists {
+        font-size: 1.3rem;
+        width: 4rem;
+      }
+    }
+    .navigation {
+      display: none;
+    }
+  }
+  #home {
+    min-height: 60vh;
+    .headings {
+      max-width: 700px;
+      align-items: center;
+      text-align: center;
+      .home-heading-one {
+        font-size: 1.7rem;
+      }
+      .home-heading-two {
+        font-size: 3rem;
+      }
+      .contact-one {
+        font-size: 1.5rem;
+        padding: 1.3rem;
+      }
+    }
+  }
+  #mockups {
+    .mockups {
+      img {
+        max-width: 60%;
+      }
+      .mobile {
+        max-width: 35%;
+      }
+    }
+  }
+  #services {
+    .section-heading {
+      h1 {
+        font-size: 2.5rem;
+      }
+    }
+    .services {
+      justify-content: center;
+      .service {
+        flex-basis: 47%;
+        .service-details {
+          h2 {
+            font-size: 1.4rem;
           }
-        }
-      }
-    }
-    .projects{
-      .project{
-        flex-direction: column;
-        .project-gallery{
-          max-width: 600px;
-        }
-      }
-    }
-    #footer {
-      min-height: 70vh;
-      .footer-part-one {
-        .footer-description {
           p {
-            font-size: 1.6rem;
-            margin-bottom: 3rem;
-          }
-        }
-        .social-links {
-          margin: 4rem 0;
-          a {
-            img {
-              max-width: 7%;
-            }
+            font-size: 1.2rem;
+            line-height: 1.5rem;
           }
         }
       }
     }
   }
-  
+  #page-services-wrapper {
+    .page-services-heading {
+      min-height: 35vh;
+
+      text-align: center;
+      h1 {
+        text-align: center;
+        font-size: 4rem;
+      }
+    }
+    .page-services {
+      padding: 0 0 5rem 0;
+      .page-service {
+        max-width: 300px;
+        .page-service-content {
+          h1 {
+            font-size: 1.5rem;
+          }
+          p {
+            font-size: 1.3rem;
+            line-height: 1.6rem;
+            text-align: justify;
+          }
+        }
+      }
+    }
+  }
+  .projects{
+    .project{
+      margin-bottom: 5rem;
+      .project-content{
+        .project-description{
+          line-height: 2rem;
+        }
+      }
+      .project-gallery{
+        margin-bottom: 4rem;
+      }
+    }
+  }
+  #reviews {
+    flex-direction: column;
+    padding: 2rem 2rem 5rem 2rem;
+    .reviews-description {
+      margin: 3rem;
+      h1 {
+        font-size: 2.5rem;
+      }
+      p {
+        text-align: center;
+      }
+    }
+    .reviews {
+      .review-card {
+        .reviews-card-detail {
+          line-height: 1.8rem;
+        }
+      }
+    }
+  }
+  #booking {
+    .booking {
+      flex-direction: column;
+      align-items: center;
+      padding: 4rem;
+      img {
+        max-width: 60%;
+        margin-bottom: 2rem;
+      }
+      .booking-description {
+        max-width: 600px;
+        align-items: center;
+        .booking-heading {
+          font-size: 2.5rem;
+        }
+      }
+    }
+  }
+  .projects {
+    .project {
+      flex-direction: column;
+      .project-gallery {
+        max-width: 600px;
+      }
+    }
+  }
+  .about-stories {
+    .about-story {
+      flex-direction: column;
+      .content {
+        max-width: 550px;
+        .content-one {
+          font-size: 1.8rem;
+          line-height: 2.2rem;
+        }
+        .content-two {
+          font-size: 1.4rem;
+          line-height: 1.7rem;
+        }
+        .graduation {
+          margin-bottom: 4rem;
+        }
+        .services-link {
+          font-size: 1.5rem;
+          padding: 1.2rem;
+        }
+      }
+      .about-creative {
+        margin-bottom: 5rem;
+        max-width: 60%;
+        order: -1;
+      }
+    }
+  }
+  .connect {
+    max-width: 600px;
+    .connect-content {
+      line-height: 2rem;
+    }
+  }
+  #contact {
+    .contact-heading{
+      min-height: 30vh;
+    }
+    .contact-main-content {
+      flex-direction: column;
+    }
+  }
+  #footer {
+    padding: 5rem;
+    min-height: 65vh;
+    .footer-part-one {
+      .footer-description {
+        p {
+          font-size: 1.4rem;
+          margin-bottom: 3rem;
+          line-height: 1.8rem;
+        }
+      }
+      .social-links {
+        margin: 4rem 0;
+        a {
+          img {
+            max-width: 7%;
+          }
+        }
+      }
+    }
+  }
+}
