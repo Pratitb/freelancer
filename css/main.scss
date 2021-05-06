@@ -9,16 +9,19 @@
 @import "trust";
 @import "footer";
 /*MOBILES*/
-@import "small-mobiles";
-@import "medium-mobiles";
-@import "medium-large-mobiles";
-@import "large-mobiles";
+@import "responsive-320";
+@import "responsive-360";
+@import "responsive-376";
+@import "responsive-401";
+
 /*IPADS*/
-@import "small-ipads";
-@import "large-ipads";
+@import "responsive-768";
+@import "responsive-901";
+
 /*LAPTOPS*/
-@import "medium-laptops";
-@import "large-laptops";
+@import "responsive-1025";
+@import "responsive-1281";
+
 
 * {
   margin: 0;

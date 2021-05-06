@@ -1,5 +1,5 @@
-/*376 to 400*********************************************************************************/
-@media (min-width: 376px) and (max-width: 400px) {
+/*320 to 359********************************************************************************/
+@media (min-width: 320px) and (max-width: 359px) {
   .mobile-menu-wrapper {
     display: flex;
     justify-content: center;
@@ -21,7 +21,7 @@
         justify-content: center;
         align-items: center;
         .menu-icons {
-          font-size: 1.3rem;
+          font-size: 1rem;
           color: rgba(255, 255, 255, 1);
           margin-bottom: 0.2rem;
         }
@@ -32,7 +32,7 @@
         }
         p {
           color: rgba(255, 255, 255, 0.8);
-          font-size: 1rem;
+          font-size: 0.8rem;
         }
         .menu-item-space {
           margin-right: 0.7rem;
@@ -43,7 +43,7 @@
   header {
     .blm {
       a {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
       }
     }
     .navigation {
@@ -54,15 +54,16 @@
   }
 
   #home {
-    min-height: 40vh;
+    min-height: 50vh;
     .headings {
       align-items: center;
+      text-align: center;
       .home-heading-one {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         margin-bottom: 0.8rem;
       }
       .home-heading-two {
-        font-size: 2.85rem;
+        font-size: 2.3rem;
         margin-bottom: 2rem;
       }
       .contact-one {
@@ -85,20 +86,21 @@
     padding: 1.2rem;
     .section-heading {
       h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
         margin-bottom: 3rem;
       }
     }
     .services {
       .service {
+        flex-basis: initial;
+        margin: 0rem 0rem 3rem 0rem;
         img {
           max-height: 4rem;
-          padding: 0.7rem;
+          padding: 0.9rem;
         }
-        margin: 0rem 0rem 3rem 0rem;
-        flex-basis: initial;
+
         .service-details {
-          max-width: 17rem;
+          max-width: 13rem;
           h2 {
             font-size: 1.1rem;
             margin-bottom: 0.7rem;
@@ -112,12 +114,11 @@
   }
   #booking {
     flex-direction: column;
-    padding: 3rem 1rem 2rem 1rem;
-    min-height: 50vh;
+    padding: 2rem 1rem;
     .booking {
       flex-direction: column;
       align-items: center;
-      padding: 1.9rem;
+      padding: 1.5rem;
       img {
         max-width: 90%;
       }
@@ -126,25 +127,25 @@
         max-width: 100%;
         padding: 1.4rem;
         .booking-heading {
-          font-size: 1.3rem;
+          font-size: 1rem;
           margin-bottom: 0.5rem;
         }
         .booking-content {
-          font-size: 1rem;
+          font-size: 0.9rem;
           margin-bottom: 1rem;
         }
         .booking-button-wrapper {
           margin-top: 1rem;
           .booking-button {
-            font-size: 1rem;
-            padding: 0.7rem;
+            font-size: 0.8rem;
+            padding: 0.6rem 0.6rem;
           }
         }
       }
     }
   }
   #trust {
-    min-height: 35vh;
+    min-height: 50vh;
     padding: 2rem 1rem;
     .trusted-brands {
       align-items: center;
@@ -159,7 +160,6 @@
       }
     }
   }
-
   /*PROJECTS CODE START************************************************/
   .projects-heading {
     h1 {
@@ -167,16 +167,15 @@
     }
   }
   .projects {
-    padding: 2rem 2rem 4rem 2rem;
+    padding: 2rem 2rem;
     .space-btm {
-      margin-bottom: 5rem;
+      margin-bottom: 3rem;
     }
     .project {
       flex-direction: column;
-      min-height: 50vh;
       .project-gallery {
-        max-width: 350px;
-        margin-bottom: 2rem;
+        max-width: 300px;
+        margin-bottom: 1rem;
       }
       .project-content {
         h1 {
@@ -201,7 +200,6 @@
   #reviews {
     display: flex;
     flex-direction: column;
-    padding: 3rem 2rem;
     .reviews-description {
       h1 {
         font-size: 2rem;
@@ -226,66 +224,42 @@
     }
   }
   /*PROJECTS CODE END**************************************************/
-  /*SERVICES CODE START*************************************************/
+  /*SERVICES CODE START***********************************************/
   #page-services-wrapper {
     padding: 2rem;
 
     .page-services-heading {
       min-height: 35vh;
       h1 {
-        font-size: 3.4rem;
+        font-size: 2.8rem;
         max-width: 300px;
       }
     }
-    .page-services {
+    .page-services{
       padding: 5rem 0rem 0rem 0rem;
-      .page-service {
+      .page-service{
         margin-bottom: 5rem;
-        .page-service-content {
-          img {
-            max-width: 7rem;
+        .page-service-content{
+          img{
+            max-width: 5rem;
           }
-          h1 {
-            font-size: 1.7rem;
+          h1{
+            font-size: 1.3rem;
             margin-bottom: 1rem;
           }
-          p {
-            font-size: 1.3rem;
+          p{
+            font-size: 1rem;
           }
         }
       }
     }
   }
-  .services-reviews {
+  .services-reviews{
     min-height: 100vh;
-    .reviews-description {
-      h1 {
-        font-size: 2.4rem !important;
-      }
-      .reviews-description-para {
-        font-size: 1.2rem !important;
-      }
-    }
-    .reviews {
-      .review-card {
-        .reviews-card-detail {
-          font-size: 1.1rem !important;
-        }
-        .company-details {
-          p {
-            font-size: 1.1rem !important;
-          }
-        }
-      }
-    }
   }
-
   /*ABOUT CODE START*************************************************/
   .about-heading {
     min-height: 20vh;
-    .heading-one {
-      font-size: 2.5rem;
-    }
     .heading-two {
       display: none;
     }
@@ -295,7 +269,7 @@
       flex-direction: column;
       margin-bottom: 3rem;
       .content {
-        max-width: 300px;
+        max-width: 250px;
       }
       .about-image {
         max-width: 90%;
@@ -310,7 +284,7 @@
         .content-one,
         .content-two,
         .content-three {
-          font-size: 1.2rem;
+          font-size: 1rem;
         }
         .content-heading {
           font-size: 1.5rem;
@@ -326,27 +300,26 @@
     }
   }
   .connect {
-    max-width: 300px;
+    max-width: 250px;
     padding: 2rem;
     margin: 2rem 0;
     .connect-heading {
       font-size: 1.5rem;
     }
     .connect-content {
-      font-size: 1.2rem;
+      font-size: 1rem;
     }
     .connect-button {
-      font-size: 0.9rem;
+      font-size: 0.8rem;
       padding: 0.8rem;
     }
   }
   /*ABOUT CODE END*************************************************/
-
   /*CONTACT CODE START*********************************************/
   #contact {
     .contact-heading {
-      max-width: 365px;
-      min-height: 30vh;
+      max-width: 300px;
+      min-height: 40vh;
       h1 {
         font-size: 2.5rem;
       }
@@ -361,7 +334,7 @@
       }
       .contact-booking {
         .calendly-inline-widget {
-          max-width: 350px;
+          max-width: 270px;
         }
       }
     }
@@ -370,8 +343,9 @@
     margin-top: -1rem;
   }
   /*CONTACT CODE END*********************************************/
+
   #footer {
-    min-height: 45vh;
+    min-height: 70vh;
     padding: 2rem 2rem;
     .footer-part-one {
       .identity {
@@ -382,10 +356,10 @@
       }
       .footer-description {
         p {
-          font-size: 1.1rem;
+          font-size: 1rem;
         }
         .footer-hiring {
-          font-size: 0.9rem;
+          font-size: 0.8rem;
           padding: 0.6rem;
         }
       }
@@ -393,7 +367,7 @@
         margin: 2rem 0rem;
         a {
           img {
-            max-width: 9%;
+            max-width: 10%;
           }
         }
       }

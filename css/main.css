@@ -1143,6 +1143,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    text-align: center;
   }
   #home .headings .home-heading-one {
     font-size: 1.2rem;
@@ -1539,6 +1540,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    text-align: center;
   }
   #home .headings .home-heading-one {
     font-size: 1.2rem;
@@ -1950,6 +1952,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    text-align: center;
   }
   #home .headings .home-heading-one {
     font-size: 1.3rem;
@@ -2364,6 +2367,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    text-align: center;
   }
   #home .headings .home-heading-one {
     font-size: 1.3rem;
