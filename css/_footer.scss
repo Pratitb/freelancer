@@ -23,6 +23,27 @@
     }
     .footer-description{
       max-width: 700px;
+      ul {
+        margin-bottom: 2rem;
+        li {
+          position: relative;
+          list-style: none;
+          margin-bottom: 0.8rem;
+          font-size: 1.3rem;
+          &::after {
+            content: "";
+            position: absolute;
+            width: 0.4rem;
+            height: 0.4rem;
+            top: 0.5rem;
+            left: -1.5rem;
+            transform: rotate(45deg);
+            display: block;
+            background: #000;
+            box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.8);
+          }
+        }
+      }
       p{
         font-size: 1.5rem;
         margin-bottom: 2rem;

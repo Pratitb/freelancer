@@ -1,400 +1,203 @@
-/*376 to 400*********************************************************************************/
+//376 to 400
+
 @media (min-width: 376px) and (max-width: 400px) {
   .mobile-menu-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     .mobile-menu {
-      position: fixed;
-      bottom: 1rem;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background: #2b616d;
-      padding: 0.8rem;
-      border-radius: 1rem;
-      box-shadow: 0 19px 38px rgba(0, 0, 0, 0.1), 0 15px 12px rgba(0, 0, 0, 0.1);
-      z-index: 10;
-
       .menu-item {
-        display: flex;
-        justify-content: center;
-        align-items: center;
         .menu-icons {
           font-size: 1.3rem;
-          color: rgba(255, 255, 255, 1);
-          margin-bottom: 0.2rem;
         }
-        a {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-        }
+
         p {
-          color: rgba(255, 255, 255, 0.8);
           font-size: 1rem;
         }
-        .menu-item-space {
-          margin-right: 0.7rem;
-        }
-      }
-    }
-  }
-  header {
-    .blm {
-      a {
-        font-size: 0.9rem;
-      }
-    }
-    .navigation {
-      .navigation-links {
-        display: none;
       }
     }
   }
 
   #home {
-    min-height: 40vh;
     .headings {
-      align-items: center;
-      text-align: center;
       .home-heading-one {
-        font-size: 1.3rem;
-        margin-bottom: 0.8rem;
+        font-size: 1.1rem;
       }
       .home-heading-two {
-        font-size: 2.85rem;
-        margin-bottom: 2rem;
+        font-size: 2.2rem;
       }
       .contact-one {
-        font-size: 1rem;
+        font-size: 1.1rem;
         padding: 0.8rem 1rem;
       }
     }
   }
-  #mockups {
-    padding: 2rem;
-    justify-content: center;
-    .mockups {
-      img {
-        max-width: 100%;
-        margin-bottom: 2rem;
-      }
-    }
-  }
+
   #services {
-    padding: 1.2rem;
+    padding: 1.2rem 2rem;
     .section-heading {
       h1 {
         font-size: 2.5rem;
-        margin-bottom: 3rem;
       }
     }
     .services {
       .service {
-        img {
-          max-height: 4rem;
-          padding: 0.7rem;
-        }
-        margin: 0rem 0rem 3rem 0rem;
-        flex-basis: initial;
         .service-details {
-          max-width: 17rem;
-          h2 {
+          h2{
+            font-size: 1.4rem;
+          }
+          p{
             font-size: 1.1rem;
-            margin-bottom: 0.7rem;
           }
-          p {
-            font-size: 0.9rem;
-          }
+          max-width: 17rem;
         }
       }
     }
   }
   #booking {
-    flex-direction: column;
-    padding: 3rem 1rem 2rem 1rem;
-    min-height: 50vh;
     .booking {
-      flex-direction: column;
-      align-items: center;
       padding: 1.9rem;
-      img {
-        max-width: 90%;
-      }
+      max-height: 500px;
+
       .booking-description {
-        margin-top: 1rem;
-        max-width: 100%;
-        padding: 1.4rem;
+        padding: 2rem;
         .booking-heading {
-          font-size: 1.3rem;
-          margin-bottom: 0.5rem;
+          font-size: 1.5rem;
         }
-        .booking-content {
-          font-size: 1rem;
-          margin-bottom: 1rem;
+        .booking-content{
+          line-height: 1.5rem;
+          font-size: 1.1rem;
         }
+
         .booking-button-wrapper {
-          margin-top: 1rem;
           .booking-button {
-            font-size: 1rem;
-            padding: 0.7rem;
+            font-size: 1.1rem;
+            padding: 0.9rem;
           }
         }
       }
     }
   }
-  #trust {
-    min-height: 35vh;
-    padding: 2rem 1rem;
-    .trusted-brands {
-      align-items: center;
-      h1 {
-        margin-bottom: 1.5rem;
-        font-size: 1.5rem;
-      }
-      .brands {
-        img {
-          max-width: 35%;
-        }
-      }
-    }
-  }
 
-  /*PROJECTS CODE START************************************************/
-  .projects-heading {
-    h1 {
-      font-size: 3rem;
-    }
-  }
-  .projects {
-    padding: 2rem 2rem 4rem 2rem;
-    .space-btm {
-      margin-bottom: 5rem;
-    }
-    .project {
-      flex-direction: column;
-      min-height: 50vh;
-      .project-gallery {
-        max-width: 350px;
-        margin-bottom: 2rem;
-      }
-      .project-content {
-        h1 {
-          font-size: 1.2rem;
-          margin-bottom: 1rem;
+  #projects-wrapper {
+    .projects {
+      padding: 2rem 2rem 4rem 2rem;
+
+      .project {
+        min-height: 80vh;
+
+        .project-content {
+          .website-demo {
+            padding: 0.8rem;
+            font-size: 1rem;
+          }
+          .project-description{
+            line-height: 1.5rem;
+            font-size: 1.1rem;
+          }
         }
-        .date {
-          font-size: 1rem;
-        }
-        .project-description {
-          font-size: 1rem;
-          margin-bottom: 1rem;
-        }
-        .website-demo {
-          padding: 0.4rem;
-          font-size: 0.8rem;
+        .project-galler{
+          max-width: 330px;
         }
       }
     }
   }
 
   #reviews {
-    display: flex;
-    flex-direction: column;
     padding: 3rem 2rem;
     .reviews-description {
       h1 {
-        font-size: 2rem;
-      }
-      .reviews-description-para {
-        font-size: 1rem;
-        margin-bottom: 3rem;
-      }
-    }
-    .reviews {
-      flex-direction: column;
-      .review-card {
-        padding: 1.5rem;
-        .reviews-card-detail {
-          font-size: 1.2rem;
-        }
-      }
-      .card-one {
-        margin-right: 0rem;
-        margin-bottom: 2rem;
-      }
-    }
-  }
-  /*PROJECTS CODE END**************************************************/
-  /*SERVICES CODE START*************************************************/
-  #page-services-wrapper {
-    padding: 2rem;
-
-    .page-services-heading {
-      min-height: 35vh;
-      h1 {
-        font-size: 3.4rem;
-        max-width: 300px;
-      }
-    }
-    .page-services {
-      padding: 5rem 0rem 0rem 0rem;
-      .page-service {
-        margin-bottom: 5rem;
-        .page-service-content {
-          img {
-            max-width: 7rem;
-          }
-          h1 {
-            font-size: 1.7rem;
-            margin-bottom: 1rem;
-          }
-          p {
-            font-size: 1.3rem;
-          }
-        }
-      }
-    }
-  }
-  .services-reviews {
-    min-height: 100vh;
-    .reviews-description {
-      h1 {
-        font-size: 2.4rem !important;
-      }
-      .reviews-description-para {
-        font-size: 1.2rem !important;
-      }
-    }
-    .reviews {
-      .review-card {
-        .reviews-card-detail {
-          font-size: 1.1rem !important;
-        }
-        .company-details {
-          p {
-            font-size: 1.1rem !important;
-          }
-        }
-      }
-    }
-  }
-
-  /*ABOUT CODE START*************************************************/
-  .about-heading {
-    min-height: 20vh;
-    .heading-one {
-      font-size: 2.5rem;
-    }
-    .heading-two {
-      display: none;
-    }
-  }
-  .about-stories {
-    .about-story {
-      flex-direction: column;
-      margin-bottom: 3rem;
-      .content {
-        max-width: 300px;
-      }
-      .about-image {
-        max-width: 90%;
-        margin-bottom: 2rem;
-      }
-      .svg-creative {
-        max-width: 70%;
-        margin-bottom: 3rem;
-      }
-      .content {
-        order: 1;
-        .content-one,
-        .content-two,
-        .content-three {
-          font-size: 1.2rem;
-        }
-        .content-heading {
-          font-size: 1.5rem;
-        }
-        .services-link {
-          font-size: 0.9rem;
-          padding: 0.7rem;
-        }
-      }
-    }
-    .about-story-three {
-      margin-bottom: 6rem;
-    }
-  }
-  .connect {
-    max-width: 300px;
-    padding: 2rem;
-    margin: 2rem 0;
-    .connect-heading {
-      font-size: 1.5rem;
-    }
-    .connect-content {
-      font-size: 1.2rem;
-    }
-    .connect-button {
-      font-size: 0.9rem;
-      padding: 0.8rem;
-    }
-  }
-  /*ABOUT CODE END*************************************************/
-
-  /*CONTACT CODE START*********************************************/
-  #contact {
-    .contact-heading {
-      max-width: 365px;
-      min-height: 30vh;
-      h1 {
         font-size: 2.5rem;
       }
-    }
-    .contact-main-content {
-      flex-direction: column;
-      .contact-descriptive-content {
-        margin-bottom: 2rem;
-        .contact-descriptive-heading {
-          font-size: 1.5rem;
-        }
-      }
-      .contact-booking {
-        .calendly-inline-widget {
-          max-width: 350px;
-        }
-      }
-    }
-  }
-  #reviews {
-    margin-top: -1rem;
-  }
-  /*CONTACT CODE END*********************************************/
-  #footer {
-    min-height: 45vh;
-    padding: 2rem 2rem;
-    .footer-part-one {
-      .identity {
+      .reviews-description-para {
+        font-size: 1.1rem;
         margin-bottom: 1rem;
-        p {
-          font-size: 1.3rem;
+        line-height: 1.5rem;
+      }
+      .reviews-description-second-para{
+        margin-bottom: 3rem;
+      }
+    }
+  }
+
+  #page-services-wrapper {
+    .page-services {
+      .page-service {
+        .page-service-content {
+          h1 {
+            font-size: 1.5rem;
+          }
+          p {
+            font-size: 1.1rem;
+            line-height: 1.6rem;
+            text-align: justify;
+          }
         }
       }
-      .footer-description {
-        p {
+    }
+  }
+  #about-wrapper{
+    .about-stories{
+      .about-story{
+        .content{
+          max-width: 300px;
+          .content-one, .content-two{
+            line-height: 1.5rem;
+          }
+          .services-link{
+            font-size: 1.1rem;
+            padding: 0.9rem;
+          }
+        }
+      }
+    }
+    .connect{
+      max-width: 300px;
+      .connect-content{
+        line-height: 1.5rem;
+        font-size: 1.1rem;
+      }
+    }
+  }
+  #contact {
+    padding: 0 2rem;
+    .contact-main-content{
+      .contact-descriptive-content{
+        .icon-content{
+          .icon{
+            i{
+              font-size: 1.5rem;
+            }
+            .icon-text{
+              font-size: 1.3rem;
+            }
+          }
+        }
+        .contact-descriptive-heading{
+          font-size: 1.8rem;
+        }
+        .contact-descriptive-text{
           font-size: 1.1rem;
-        }
-        .footer-hiring {
-          font-size: 0.9rem;
-          padding: 0.6rem;
+          line-height: 1.5rem;
         }
       }
-      .social-links {
-        margin: 2rem 0rem;
-        a {
-          img {
-            max-width: 9%;
+    }
+    .contact-heading{
+      max-width: 350px;
+    }
+    .calendly-inline-widget {
+      max-width: 300px;
+    }
+  }
+  #footer{
+    .footer-part-one{
+      .footer-description{
+        .footer-hiring{
+          font-size: 1.1rem;
+          padding: 0.9rem;
+        }
+      }
+      .social-links{
+        a{
+          img{
+            max-width: 10%;
           }
         }
       }

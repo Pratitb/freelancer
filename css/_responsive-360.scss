@@ -1,70 +1,27 @@
-/*360 to 375**********************************************************************************/
+//360 to 375
+
 @media (min-width: 360px) and (max-width: 375px) {
   .mobile-menu-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     .mobile-menu {
-      position: fixed;
-      bottom: 2rem;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background: #2b616d;
-      padding: 0.8rem;
-      border-radius: 1rem;
-      box-shadow: 0 19px 38px rgba(0, 0, 0, 0.1), 0 15px 12px rgba(0, 0, 0, 0.1);
-      z-index: 10;
-
       .menu-item {
-        display: flex;
-        justify-content: center;
-        align-items: center;
         .menu-icons {
           font-size: 1.3rem;
-          color: rgba(255, 255, 255, 1);
-          margin-bottom: 0.2rem;
         }
-        a {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-        }
+
         p {
-          color: rgba(255, 255, 255, 0.8);
           font-size: 0.9rem;
         }
-        .menu-item-space {
-          margin-right: 0.7rem;
-        }
-      }
-    }
-  }
-  header {
-    .blm {
-      a {
-        font-size: 0.9rem;
-      }
-    }
-    .navigation {
-      .navigation-links {
-        display: none;
       }
     }
   }
 
   #home {
-    min-height: 40vh;
     .headings {
-      align-items: center;
-      text-align: center;
       .home-heading-one {
         font-size: 1.2rem;
-        margin-bottom: 0.8rem;
       }
       .home-heading-two {
         font-size: 2.6rem;
-        margin-bottom: 2rem;
       }
       .contact-one {
         font-size: 1rem;
@@ -72,74 +29,32 @@
       }
     }
   }
-  #mockups {
-    padding: 2rem;
-    justify-content: center;
-    .mockups {
-      img {
-        max-width: 100%;
-        margin-bottom: 2rem;
-      }
-    }
-  }
+
   #services {
-    padding: 1.2rem;
     .section-heading {
       h1 {
         font-size: 2.6rem;
         line-height: 3rem;
-        text-align: center;
-        margin-bottom: 3rem;
       }
     }
     .services {
       .service {
-        flex-basis: initial;
-        margin: 0rem 0rem 3rem 0rem;
-        img {
-          max-height: 4rem;
-          padding: 0.9rem;
-        }
-
         .service-details {
           max-width: 13rem;
-          h2 {
-            font-size: 1.1rem;
-            margin-bottom: 0.7rem;
-          }
-          p {
-            font-size: 1rem;
-            line-height: 1.4rem;
-          }
         }
       }
     }
   }
   #booking {
-    flex-direction: column;
-    padding: 2rem 1rem;
-    min-height: 60vh;
     .booking {
-      flex-direction: column;
-      align-items: center;
       padding: 1.9rem;
-      img {
-        max-width: 90%;
-      }
+
       .booking-description {
-        margin-top: 1rem;
-        max-width: 100%;
-        padding: 1.4rem;
         .booking-heading {
           font-size: 1.2rem;
-          margin-bottom: 0.5rem;
         }
-        .booking-content {
-          font-size: 0.9rem;
-          margin-bottom: 1rem;
-        }
+
         .booking-button-wrapper {
-          margin-top: 1rem;
           .booking-button {
             font-size: 1rem;
             padding: 0.7rem;
@@ -148,65 +63,23 @@
       }
     }
   }
-  #trust {
-    min-height: 40vh;
-    padding: 2rem 1rem;
-    .trusted-brands {
-      align-items: center;
-      h1 {
-        margin-bottom: 1.5rem;
-        font-size: 1.5rem;
-      }
-      .brands {
-        img {
-          max-width: 35%;
-        }
-      }
-    }
-  }
 
-  /*PROJECTS CODE START************************************************/
-  .projects-heading {
-    h1 {
-      font-size: 3rem;
-    }
-  }
-  .projects {
-    padding: 2rem 2rem;
-    .space-btm {
-      margin-bottom: 1rem;
-    }
-    .project {
-      flex-direction: column;
-      .project-gallery {
-        max-width: 300px;
-        margin-bottom: 1rem;
-      }
-      .project-content {
-        h1 {
-          font-size: 1.2rem;
-          margin-bottom: 1rem;
-        }
-        .date {
-          font-size: 1rem;
-        }
-        .project-description {
-          font-size: 1.1rem;
-          margin-bottom: 1rem;
-          line-height: 1.4rem;
-        }
-        .website-demo {
-          padding: 0.6rem;
-          font-size: 1rem;
+  #projects-wrapper {
+    .projects {
+      padding: 2rem 2rem;
+
+      .project {
+        .project-content {
+          .website-demo {
+            padding: 0.6rem;
+            font-size: 1rem;
+          }
         }
       }
     }
   }
 
   #reviews {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
     padding: 2rem 2rem 5rem 2rem;
     .reviews-description {
       margin-bottom: 3rem;
@@ -220,44 +93,14 @@
         text-align: justify;
       }
     }
-    .reviews {
-      flex-direction: column;
-      .review-card {
-        padding: 1.5rem;
-        .reviews-card-detail {
-          font-size: 1.1rem;
-          line-height: 1.4rem;
-        }
-      }
-      .card-one {
-        margin-right: 0rem;
-        margin-bottom: 2rem;
-      }
-    }
   }
-  /*PROJECTS CODE END**************************************************/
-  /*SERVICES CODE START*************************************************/
-  #page-services-wrapper {
-    padding: 2rem;
 
-    .page-services-heading {
-      min-height: 20vh;
-      h1 {
-        font-size: 2.6rem;
-        max-width: 300px;
-      }
-    }
+  #page-services-wrapper {
     .page-services {
-      padding: 5rem 0rem 0rem 0rem;
       .page-service {
-        margin-bottom: 5rem;
         .page-service-content {
-          img {
-            max-width: 5rem;
-          }
           h1 {
             font-size: 1.5rem;
-            margin-bottom: 1rem;
           }
           p {
             font-size: 1.2rem;
@@ -268,161 +111,10 @@
       }
     }
   }
-  .services-reviews {
-    min-height: 100vh;
 
-    .reviews {
-      .review-card {
-        .company-details {
-          p {
-            font-size: 1rem !important;
-          }
-        }
-      }
-    }
-  }
-
-  /*ABOUT CODE START*************************************************/
-  .about-heading {
-    min-height: 20vh;
-    .heading-two {
-      display: none;
-    }
-  }
-  .about-stories {
-    .about-story {
-      flex-direction: column;
-      margin-bottom: 3rem;
-      .content {
-        max-width: 300px;
-        text-align: justify;
-      }
-      .about-image {
-        max-width: 90%;
-        margin-bottom: 2rem;
-      }
-      .svg-creative {
-        max-width: 70%;
-        margin-bottom: 3rem;
-      }
-      .content {
-        order: 1;
-        .content-one {
-          font-size: 1.2rem;
-          line-height: 1.6rem;
-        }
-        .content-two{
-          font-size: 1rem;
-          line-height: 1.5rem;
-        }
-        .content-heading {
-          font-size: 1.5rem;
-        }
-        .services-link {
-          font-size: 0.9rem;
-          padding: 0.7rem;
-        }
-        .questions{
-          font-size: 1.1rem;
-        }
-      }
-    }
-    .about-story-three {
-      margin-bottom: 6rem;
-    }
-  }
-  .connect {
-    max-width: 300px;
-    padding: 2rem;
-    margin: 2rem 0;
-    .connect-heading {
-      font-size: 1.5rem;
-    }
-    .connect-content {
-      font-size: 1.1rem;
-      line-height: 1.5rem;
-    }
-    .connect-button {
-      font-size: 0.9rem;
-      padding: 0.8rem;
-    }
-  }
-  /*ABOUT CODE END*************************************************/
-
-  /*CONTACT CODE START*********************************************/
   #contact {
-    .contact-heading {
-      max-width: 300px;
-      min-height: 30vh;
-      text-align: center;
-      h1 {
-        font-size: 2.5rem;
-      }
-    }
-    .contact-main-content {
-      flex-direction: column;
-      .contact-descriptive-content {
-        margin-bottom: 2rem;
-        
-        .contact-descriptive-heading {
-          font-size: 1.3rem;
-          text-align: center;
-        }
-        .contact-descriptive-text{
-          font-size: 1rem;
-          line-height: 1.4rem;
-          text-align: justify;
-        }
-        .icon-content{
-          .icon{
-            i{
-              font-size: 1.2rem;
-            }
-            .icon-text{
-              font-size: 1.1rem;
-            }
-          }
-        }
-      }
-      .contact-booking {
-        .calendly-inline-widget {
-          max-width: 320px;
-        }
-      }
-    }
-  }
-  #reviews {
-    margin-top: -1rem;
-  }
-  /*CONTACT CODE END*********************************************/
-  #footer {
-    min-height: 70vh;
-    padding: 4rem 2rem;
-    .footer-part-one {
-      .identity {
-        margin-bottom: 1rem;
-        p {
-          font-size: 1.5rem;
-        }
-      }
-      .footer-description {
-        p {
-          font-size: 1rem;
-          line-height: 1.4rem;
-        }
-        .footer-hiring {
-          font-size: 0.9rem;
-          padding: 0.7rem;
-        }
-      }
-      .social-links {
-        margin: 3rem 0rem;
-        a {
-          img {
-            max-width: 9%;
-          }
-        }
-      }
+    .calendly-inline-widget {
+      max-width: 320px;
     }
   }
 }

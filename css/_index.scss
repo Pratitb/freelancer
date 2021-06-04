@@ -14,12 +14,12 @@
         max-width: 800px;
 
         .home-heading-one{
-            font-size: 2rem;
+            font-size: 1.5rem;
             font-weight: 600;
             margin-bottom: 2rem;
         }
         .home-heading-two{
-            font-size: 5.5rem;
+            font-size: 4rem;
             font-weight: 600;
             margin-bottom: 3rem;
         }
@@ -44,12 +44,10 @@
     display: flex;
     padding: $section-padding;
     img{
-        max-width: 60%;
+        max-width: 40%;
         
     }
-    .mobile{
-        max-width: 30%;
-    }
+    
 }
 #services {
     display: flex;

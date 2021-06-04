@@ -1,1 +1,9 @@
-$section-padding:5rem 2rem
+$section-padding:5rem 2rem;
+
+@mixin flex($jc, $ai, $direction) {
+    display: flex;
+    justify-content: $jc;
+    align-items: $ai;
+    flex-direction: $direction;
+    
+}

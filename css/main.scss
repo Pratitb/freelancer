@@ -8,20 +8,6 @@
 @import "contact";
 @import "trust";
 @import "footer";
-/*MOBILES*/
-@import "responsive-320";
-@import "responsive-360";
-@import "responsive-376";
-@import "responsive-401";
-
-/*IPADS*/
-@import "responsive-768";
-@import "responsive-901";
-
-/*LAPTOPS*/
-@import "responsive-1025";
-@import "responsive-1281";
-
 
 * {
   margin: 0;
@@ -39,3 +25,376 @@ a {
     display: none;
   }
 }
+
+@media (min-width: 320px) and (max-width: 430px) {
+  .mobile-menu-wrapper {
+    @include flex(center, center, row);
+    .mobile-menu {
+      @include flex(center, center, row);
+      position: fixed;
+      bottom: 2rem;
+      padding: 0.8rem;
+      border-radius: 1rem;
+      box-shadow: 0 19px 38px rgba(0, 0, 0, 0.1), 0 15px 12px rgba(0, 0, 0, 0.1);
+      z-index: 10;
+      background: #2b616d;
+      .menu-item {
+        @include flex(center, center, row);
+        .menu-icons {
+          color: rgba(255, 255, 255, 1);
+          margin-bottom: 0.2rem;
+        }
+        a {
+          @include flex(center, center, column);
+        }
+        p {
+          color: rgba(255, 255, 255, 0.8);
+        }
+        .menu-item-space {
+          margin-right: 0.7rem;
+        }
+      }
+    }
+  }
+  /* MOBILE MENU WRAPPER END */
+  header {
+    .blm {
+      .blm-fists {
+        font-size: 1rem;
+      }
+    }
+    .navigation {
+      .navigation-links {
+        display: none;
+      }
+    }
+  }
+  /* HEADER STYLE END */
+
+  #home {
+    min-height: 40vh;
+    .headings {
+      align-items: center;
+      text-align: center;
+      .home-heading-one {
+        margin-bottom: 0.8rem;
+      }
+      .home-heading-two {
+        margin-bottom: 2rem;
+      }
+    }
+  }
+  /* HOME STYLE END */
+  #mockups {
+    padding: 2rem;
+    justify-content: center;
+    .mobile {
+      max-width: 100%;
+      margin-bottom: 2rem;
+    }
+  }
+  /* MOCKUPS STYLE END */
+  #services {
+    padding: 1.2rem;
+    .section-heading {
+      h1 {
+        margin-bottom: 3rem;
+        text-align: center;
+      }
+    }
+
+    .services {
+      .service {
+        flex-basis: initial;
+        margin: 0rem 0rem 3rem 0rem;
+        img {
+          max-height: 4rem;
+          padding: 0.9rem;
+        }
+        .service-details {
+          h2 {
+            font-size: 1.2rem;
+            margin-bottom: 0.7rem;
+          }
+          p {
+            font-size: 1rem;
+            line-height: 1.4rem;
+          }
+        }
+      }
+    }
+  }
+  /* SERVICES STYLE END */
+  #booking {
+    flex-direction: column;
+    min-height: 60vh;
+    padding: 2rem 1rem;
+    .booking {
+      @include flex(center, center, column);
+      img {
+        max-width: 90%;
+      }
+      .booking-description {
+        margin-top: 1rem;
+        max-width: 100%;
+        padding: 1.7rem;
+        .booking-heading {
+          margin-bottom: 0.5rem;
+        }
+        .booking-content {
+          font-size: 1rem;
+          margin-bottom: 1rem;
+        }
+        .booking-button-wrapper {
+          margin-top: 1rem;
+        }
+      }
+    }
+  }
+  /* BOOKING STYLE END */
+  #trust {
+    min-height: 40vh;
+    padding: 2rem 1rem;
+    .trusted-brands {
+      align-items: center;
+      h1 {
+        margin-bottom: 1.5rem;
+        font-size: 1.5rem;
+      }
+      .brands {
+        img {
+          max-width: 35%;
+        }
+      }
+    }
+  }
+  /* TRUST STYLE END */
+  #projects-wrapper {
+    .projects-heading {
+      h1 {
+        font-size: 3rem;
+      }
+    }
+    .projects {
+      .project {
+        flex-direction: column;
+        .project-gallery {
+          max-width: 300px;
+          margin-bottom: 2rem;
+        }
+        .project-content {
+          h1 {
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+          }
+          .date {
+            font-size: 1rem;
+          }
+          .project-description {
+            margin-bottom: 1rem;
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+  }
+  /* PROJECTS PAGE STYLE END */
+  #reviews {
+    @include flex(center, center, column);
+    .reviews {
+      flex-direction: column;
+      .review-card {
+        padding: 2rem;
+        .reviews-card-detail {
+          font-size: 1.2rem;
+          line-height: 1.5rem;
+        }
+      }
+      .card-one {
+        margin-right: 0;
+        margin-bottom: 2rem;
+      }
+    }
+  }
+  /* REVIEWS COMMON STYLES END */
+  #page-services-wrapper {
+    padding: 2rem;
+    .page-services-heading {
+      min-height: 20vh;
+      h1 {
+        font-size: 2.6rem;
+        max-width: 300px;
+      }
+    }
+    .page-services {
+      padding: 5rem 0 0 0;
+      .page-service {
+        margin-bottom: 5rem;
+        .page-service-content {
+          img {
+            max-width: 5rem;
+          }
+          h1 {
+            margin-bottom: 1rem;
+          }
+        }
+      }
+    }
+  }
+  /* SERVICES PAGE STYLE END */
+  #about-wrapper {
+    .about-heading {
+      min-height: 20vh;
+      .heading-one {
+        font-size: 2rem;
+      }
+    }
+    .about-stories {
+      .about-story {
+        flex-direction: column;
+        margin-bottom: 3rem;
+        .content {
+          max-width: 270px;
+          text-align: justify;
+          order: 1;
+          .content-one,
+          .content-two {
+            font-size: 1.1rem;
+          }
+          .content-heading {
+            font-size: 1.5rem;
+          }
+          .services-link {
+            font-size: 0.9rem;
+            padding: 0.7rem;
+          }
+        }
+        .about-image {
+          max-width: 90%;
+          margin-bottom: 2rem;
+        }
+        .svg-creative {
+          max-width: 70%;
+          margin-bottom: 3rem;
+        }
+      }
+      .about-story-three {
+        margin-bottom: 6rem;
+      }
+    }
+    .connect {
+      max-width: 270px;
+      padding: 2rem;
+      margin: 2rem 0;
+      .connect-heading {
+        font-size: 1.5rem;
+      }
+      .connect-content {
+        font-size: 1rem;
+      }
+      .connect-button {
+        font-size: 0.9rem;
+        padding: 0.8rem;
+      }
+    }
+  }
+  /* ABOUT PAGE STYLE END */
+  #contact {
+    .contact-heading {
+      max-width: 270px;
+      min-height: 30vh;
+      text-align: center;
+      h1 {
+        font-size: 2.5rem;
+      }
+    }
+    .contact-main-content {
+      flex-direction: column;
+      .contact-descriptive-content {
+        margin-bottom: 2rem;
+        margin-right: 0rem;
+        text-align: justify;
+        .contact-descriptive-heading {
+          font-size: 1.5rem;
+          text-align: center;
+        }
+        .icon-content{
+          .icon{
+            .icon-text{
+              text-align: end;
+              
+            }
+          }
+        }
+      }
+    }
+  }
+  /* CONTACT PAGE STYLE END */
+  #footer {
+    min-height: 60vh;
+    padding: 4rem 4rem;
+    .footer-part-one {
+      .identity {
+        margin-bottom: 2rem;
+        p {
+          font-size: 1.4rem;
+        }
+      }
+      .footer-description {
+        ul {
+          margin-bottom: 2rem;
+          li {
+            position: relative;
+            list-style: none;
+            margin-bottom: 0.8rem;
+            line-height: 1.5rem;
+            text-align: justify;
+            font-size: 1.1rem;
+            &::after {
+              content: "";
+              position: absolute;
+              width: 0.4rem;
+              height: 0.4rem;
+              top: 0.5rem;
+              left: -1.5rem;
+              transform: rotate(45deg);
+              display: block;
+              background: #000;
+              box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.8);
+            }
+          }
+        }
+        /* p {
+          font-size: 1rem;
+          line-height: 1.3rem;
+        } */
+        .footer-hiring {
+          font-size: 1rem;
+          padding: 0.6rem;
+        }
+      }
+      .social-links {
+        margin: 4rem 0;
+        a {
+          img {
+            max-width: 9%;
+          }
+        }
+      }
+    }
+  }
+}
+
+/*MOBILES*/
+@import "responsive-320";
+@import "responsive-360";
+@import "responsive-376";
+@import "responsive-401";
+
+/*IPADS*/
+@import "responsive-768";
+@import "responsive-901";
+
+/*LAPTOPS*/
+@import "responsive-1025";
+@import "responsive-1281";
