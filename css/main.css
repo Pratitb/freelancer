@@ -263,12 +263,14 @@
 }
 
 #services .services .service .service-details h2 {
+  font-size: 1.8rem;
   margin-bottom: 1rem;
 }
 
 #services .services .service .service-details p {
   font-size: 1.3rem;
   color: rgba(0, 0, 0, 0.8);
+  line-height: 1.8rem;
 }
 
 #services .more-services a {
@@ -323,7 +325,7 @@
 }
 
 #booking .booking .booking-description {
-  max-width: 400px;
+  max-width: 500px;
   max-height: 350px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -347,6 +349,7 @@
 #booking .booking .booking-description .booking-content {
   font-size: 1.5rem;
   margin-bottom: 3rem;
+  line-height: 2rem;
 }
 
 #booking .booking .booking-description .booking-button {
@@ -445,9 +448,9 @@
 }
 
 .page-services .page-service .page-service-content p {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   color: rgba(0, 0, 0, 0.9);
-  line-height: 2.2rem;
+  line-height: 2rem;
   text-align: justify;
 }
 
@@ -743,11 +746,13 @@
 .about-stories .about-story .content .content-one {
   font-size: 1.7rem;
   margin-bottom: 1rem;
+  line-height: 2.3rem;
 }
 
 .about-stories .about-story .content .content-two {
   font-size: 1.2rem;
   margin-bottom: 2rem;
+  line-height: 1.8rem;
 }
 
 .about-stories .about-story .content .content-three {
@@ -879,9 +884,10 @@
 }
 
 #contact .contact-main-content .contact-descriptive-content .contact-descriptive-text {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   margin-bottom: 2rem;
   color: rgba(0, 0, 0, 0.8);
+  line-height: 2rem;
 }
 
 #contact .contact-main-content .contact-descriptive-content .icon-content .icon {

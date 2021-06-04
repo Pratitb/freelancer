@@ -95,11 +95,13 @@
           max-width: 350px;
   
           h2 {
+            font-size: 1.8rem;
             margin-bottom: 1rem;
           }
           p {
             font-size: 1.3rem;
             color: rgba(0, 0, 0, 0.8);
+            line-height: 1.8rem;
           }
         }
       }
@@ -142,7 +144,7 @@
         max-width: 30%;
       }
       .booking-description {
-        max-width: 400px;
+        max-width: 500px;
         max-height: 350px;
         display: flex;
         flex-direction: column;
@@ -159,6 +161,7 @@
         .booking-content {
           font-size: 1.5rem;
           margin-bottom: 3rem;
+          line-height: 2rem;
         }
   
         .booking-button {
