@@ -1542,6 +1542,7 @@ a {
     font-size: 0.8rem;
   }
   header .blm .blm-fists {
+    font-size: 0.7rem;
     width: 2rem;
   }
   header .blm a {
@@ -1581,12 +1582,21 @@ a {
   #booking .booking .booking-description .booking-heading {
     font-size: 1rem;
   }
+  #booking .booking .booking-description .booking-content {
+    line-height: 1.2rem;
+  }
   #booking .booking .booking-description .booking-button-wrapper .booking-button {
     font-size: 0.8rem;
     padding: 0.6rem 0.6rem;
   }
   #projects-wrapper .projects {
     padding: 2rem 2rem;
+  }
+  #projects-wrapper .projects .project {
+    min-height: 100vh;
+  }
+  #projects-wrapper .projects .project .project-content .project-description {
+    line-height: 1.4rem;
   }
   #projects-wrapper .projects .project .project-content .website-demo {
     padding: 0.4rem;
@@ -1599,11 +1609,59 @@ a {
     font-size: 1rem;
     margin-bottom: 3rem;
   }
+  #page-services-wrapper .page-services-heading h1 {
+    text-align: center;
+  }
   #page-services-wrapper .page-services .page-service .page-service-content h1 {
     font-size: 1.3rem;
   }
   #page-services-wrapper .page-services .page-service .page-service-content p {
     font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  #reviews {
+    padding: 5rem 2rem;
+  }
+  #reviews .reviews-description .reviews-description-para {
+    font-size: 1.2rem;
+  }
+  .about-stories {
+    padding: 0 2rem;
+  }
+  .about-stories .about-story .content .content-one {
+    line-height: 1.5rem;
+  }
+  #about-wrapper .connect .connect-heading {
+    font-size: 1.4rem;
+  }
+  #about-wrapper .connect .connect-content {
+    line-height: 1.5rem;
+  }
+  #footer {
+    padding: 4rem 3rem;
+  }
+  #footer .footer-part-one .identity p {
+    font-size: 1.2rem;
+  }
+  #footer .footer-part-one .social-links a img {
+    max-width: 11%;
+  }
+  #contact {
+    padding: 0 2rem;
+  }
+  #contact .contact-main-content .contact-descriptive-content .contact-descriptive-heading {
+    font-size: 1.4rem;
+  }
+  #contact .contact-main-content .contact-descriptive-content .contact-descriptive-text {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+  }
+  #contact .contact-heading {
+    min-height: 50vh;
+  }
+  #contact .contact-heading h1 {
+    font-size: 2rem;
+    margin: 2rem 0;
   }
   #contact .calendly-inline-widget {
     max-width: 270px;
