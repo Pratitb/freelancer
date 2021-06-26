@@ -1675,6 +1675,9 @@ a {
   .mobile-menu-wrapper .mobile-menu .menu-item p {
     font-size: 0.9rem;
   }
+  .blm a {
+    font-size: 1rem;
+  }
   #home .headings .home-heading-one {
     font-size: 1.2rem;
   }
@@ -1690,10 +1693,21 @@ a {
     line-height: 3rem;
   }
   #services .services .service .service-details {
-    max-width: 13rem;
+    max-width: 17rem;
+  }
+  #services .services .service .service-details h2 {
+    font-size: 1.5rem;
+  }
+  #services .services .service .service-details p {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
   }
   #booking .booking {
+    max-height: 500px;
     padding: 1.9rem;
+  }
+  #booking .booking .booking-description .booking-content {
+    line-height: 1.5rem;
   }
   #booking .booking .booking-description .booking-heading {
     font-size: 1.2rem;
@@ -1705,12 +1719,28 @@ a {
   #projects-wrapper .projects {
     padding: 2rem 2rem;
   }
+  #projects-wrapper .projects .project .project-content h1 {
+    font-size: 1.5rem;
+  }
   #projects-wrapper .projects .project .project-content .website-demo {
     padding: 0.6rem;
     font-size: 1rem;
   }
+  #projects-wrapper .projects .project .project-content .project-description {
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+  }
+  .about-stories .about-story .content .content-one {
+    line-height: 1.5rem;
+  }
+  #about-wrapper .connect .connect-heading {
+    font-size: 1.4rem;
+  }
+  #about-wrapper .connect .connect-content {
+    line-height: 1.5rem;
+  }
   #reviews {
-    padding: 2rem 2rem 5rem 2rem;
+    padding: 5rem 2rem;
   }
   #reviews .reviews-description {
     margin-bottom: 3rem;
@@ -1729,8 +1759,23 @@ a {
   }
   #page-services-wrapper .page-services .page-service .page-service-content p {
     font-size: 1.2rem;
-    line-height: 1.4rem;
+    line-height: 1.7rem;
     text-align: justify;
+  }
+  #contact {
+    padding: 0 2rem;
+  }
+  #contact .contact-heading h1 {
+    font-size: 2.2rem;
+  }
+  #contact .contact-main-content .contact-descriptive-content .contact-descriptive-text {
+    font-size: 1.2rem;
+  }
+  #footer {
+    padding: 4rem 3rem;
+  }
+  #footer .footer-part-one .social-links a img {
+    max-width: 12%;
   }
   #contact .calendly-inline-widget {
     max-width: 320px;

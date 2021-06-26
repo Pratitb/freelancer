@@ -14,6 +14,11 @@
       }
     }
   }
+  .blm{
+    a{
+      font-size: 1rem;
+    }
+  }
 
   #home {
     .headings {
@@ -40,16 +45,27 @@
     .services {
       .service {
         .service-details {
-          max-width: 13rem;
+          max-width: 17rem;
+          h2{
+            font-size: 1.5rem;
+          }
+          p{
+            font-size: 1.1rem;
+            line-height: 1.5rem;
+          }
         }
       }
     }
   }
   #booking {
     .booking {
+      max-height: 500px;
       padding: 1.9rem;
 
       .booking-description {
+        .booking-content{
+          line-height: 1.5rem;
+        }
         .booking-heading {
           font-size: 1.2rem;
         }
@@ -70,17 +86,42 @@
 
       .project {
         .project-content {
+          h1{
+            font-size: 1.5rem;
+          }
           .website-demo {
             padding: 0.6rem;
             font-size: 1rem;
+          }
+          .project-description{
+            line-height: 1.5rem;
+            font-size: 1.2rem;
           }
         }
       }
     }
   }
-
+.about-stories{
+  .about-story{
+    .content{
+      .content-one{
+        line-height: 1.5rem;
+      }
+    }
+  }
+}
+#about-wrapper{
+  .connect{
+    .connect-heading{
+      font-size: 1.4rem;
+    }
+    .connect-content{
+      line-height: 1.5rem;
+    }
+  }
+}
   #reviews {
-    padding: 2rem 2rem 5rem 2rem;
+    padding: 5rem 2rem;
     .reviews-description {
       margin-bottom: 3rem;
       h1 {
@@ -104,14 +145,40 @@
           }
           p {
             font-size: 1.2rem;
-            line-height: 1.4rem;
+            line-height: 1.7rem;
             text-align: justify;
           }
         }
       }
     }
   }
-
+  #contact{
+    padding: 0 2rem;
+    .contact-heading{
+      h1{
+        font-size: 2.2rem;
+      }
+    }
+    .contact-main-content{
+      .contact-descriptive-content{
+        .contact-descriptive-text{
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+#footer{
+  padding: 4rem 3rem;
+  .footer-part-one{
+    .social-links{
+      a{
+        img{
+          max-width: 12%;
+        }
+      }
+    }
+  }
+}
   #contact {
     .calendly-inline-widget {
       max-width: 320px;
