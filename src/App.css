@@ -1,0 +1,44 @@
+@import 'tailwindcss';
+
+@layer base {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+}
+
+@layer components {
+    .headText {
+        @apply font-bold text-xl capitalize leading-6
+    }
+
+    .heroText {
+        @apply font-bold text-3xl capitalize
+    }
+
+    .image {
+        @apply rounded-xl mt-6
+    }
+
+    .primaryBtn {
+        @apply bg-primary text-white rounded-lg px-4 py-2 capitalize font-bold flex justify-center items-center
+    }
+}
+
+@layer utilities {
+    .container {
+        width: 100%;
+        max-width: 1186px;
+        margin: 0 auto;
+        padding: 20px 10px;
+    }
+}
+
+@theme {
+    --color-secondary: #757575;
+    --color-primary: #000000;
+    --color-bgMain: #f5f5f5;
+    --color-bgCard: #ffffff;
+    --color-iconBg: #eeeeee;
+}
