@@ -1,0 +1,2 @@
+export const clients = [{ id: 1, url: './client-1.png' }, { id: 2, url: './client-2.png' }, { id: 3, url: './client-3.png' },]
+export const whyPointers = [{ id: 1, point: 'your ideas are heard and considered' }, { id: 2, point: 'business and customer focus development' }, { id: 3, point: 'customer focused features' }, { id: 4, point: 'modern design' }, { id: 5, point: 'mobile and desktop development' }, { id: 6, point: 'fast loading' }, { id: 7, point: 'end to end delivery' }]
