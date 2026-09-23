@@ -20,8 +20,8 @@ const Hero = ({ preHead, head, desc }: HeroProps) => {
                 <p className="heroText">{head}</p>
                 <p className="mt-2 mb-8 text-subtle">{desc}</p>
                 <div className="flex gap-4">
-                    <Button buttonName="view work" leadIcon={LuArrowRight} />
-                    <Button buttonName="lets talk" trailIcon={LuMessageCircleMore} />
+                    <Button name="view work" leadIcon={LuArrowRight} />
+                    <Button name="lets talk" trailIcon={LuMessageCircleMore} />
                 </div>
                 <div className="flex">
                     {counters?.map(item => <Counter key={item.id} count={item.count} label={item.label} />)}
