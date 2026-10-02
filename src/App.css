@@ -15,7 +15,7 @@
 
 @layer components {
     .headText {
-        @apply font-bold text-sm text-subtle uppercase tracking-wider
+        @apply font-bold text-xl uppercase tracking-wider
     }
 
     .heroText {
@@ -27,11 +27,11 @@
     }
 
     .btn {
-        @apply text-xs capitalize rounded-lg px-4 py-3 flex justify-center items-center flex-1 gap-2
+        @apply text-xs capitalize rounded-lg px-4 py-3 flex justify-center items-center gap-2 cursor-pointer
     }
 
     .subHead {
-        @apply text-xs font-semibold tracking-wider uppercase text-subtle
+        @apply text-xs tracking-wider uppercase
     }
 }
 
