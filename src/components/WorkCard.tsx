@@ -13,8 +13,8 @@ interface WorkProps {
 const WorkCard = ({ imageSrc, title, desc, projectLink }: WorkProps) => {
     // getStatus, getName,
     return (
-        <div className='bg-bgCard shadow-lg rounded-lg p-4'>
-            <div className='relative'>
+        <div className='bg-bgCard shadow-lg rounded-lg p-4 w-full'>
+            <div className='relative min-w-72 lg:min-w-96 xl:min-w-120'>
                 <img src={imageSrc} alt="" className='rounded-lg' />
             </div>
             <div className='p-2'>
