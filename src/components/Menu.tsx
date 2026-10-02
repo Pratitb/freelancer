@@ -17,7 +17,7 @@ const Menu = ({ getLinks, active, getSections, getActiveFn }: MenuProps) => {
     return (
         <div className="fixed bottom-2 left-[50%] translate-[-50%] bg-bgCard flex rounded-4xl p-1.5 overflow-x-auto max-w-68 sm:max-w-full shadow-xl whitespace-nowrap border border-subtle">
             {getLinks?.map(item =>
-                <div key={item.id} className={`px-3 py-2 rounded-4xl ${active === item.label ? 'bg-primary text-white' : ''}`} onClick={() => {
+                <div key={item.id} className={`px-3 py-2 rounded-4xl cursor-pointer ${active === item.label ? 'bg-primary text-white' : ''}`} onClick={() => {
                     handleSectionScroll(getSectionRef(item.label))
                     getActiveFn(item.label ?? 'home')
                 }}>
